@@ -1,22 +1,20 @@
+$ina_orange: #FF8000;
+$ina_orange_2: #DE700B;
+$ina_orange_3: #BD5F16;
+$ina_orange_4: #9C4E21;
+$ina_gray: #666666;
+$ina_text_dark: #333333;
+
 @media (min-width: 992px) {
     #mainNav .navbar-nav .nav-item .nav-link {
         color: #212529;
     }
 }
 
-h2 {
-    font-size: 60px;
-}
-
 header.masthead {
     margin-top: 92px;
     background-image: url("../assets/img/about/about-header.jpg");
     
-    h1 {
-        font-size: 80px;
-        font-weight: 500;
-    }
-
     @media (min-width: 992px) {
         margin-top: 0;
     }
@@ -24,7 +22,7 @@ header.masthead {
 
 #company {
     p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 400;
         line-height: 1.8em;
         text-align: justify;
@@ -34,42 +32,27 @@ header.masthead {
 .card {
     background-color: none;
     border-width: 1px;
-    border-color: darkorange;
     border-radius: 0;
     
-
     h3 {
-        font-size: 40px;
-        font-weight: 700;
+        font-weight: 500;
     }
-
     h4 {
-        font-size: 25px;
-        color: brown;
+        font-size: 1.3rem;
+        color: $ina_orange_4;
+        font-weight: 400;
     }
     p {
-        font-size: 20px;
         text-align: justify;
     }
     @media (min-width: 1399px) {
-        h3 {
-            font-size: 60px;
-            font-weight: 700;
-        }
-    
-        h4 {
-            font-size: 40px;
-            color: brown;
-        }
         p {
-            font-size: 25px;
             text-align: justify;
         }
     }
     img {
         object-fit: cover;
     }
-    
 }
 
 
@@ -84,7 +67,7 @@ header.masthead {
 
 .bg-join-left{
     position: relative;
-    background-color: #FFD5AA6B;
+    background-color: rgba($ina_orange, 0.2);
     text-align: right;
 }
 
@@ -116,7 +99,7 @@ header.masthead {
 .bg-join-right{
     position: relative;
     vertical-align: bottom;
-    background-color: #CC543AB5;
+    background-color: rgba($ina_orange_4, 0.7);
 }
 
 

@@ -4,7 +4,7 @@
             
             <div class="col-12 col-md-8 order-md-last">
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-6 col-md-4">
                         <div class="footer-list-block">
                             <h6>關於寶晶</h6>
                             <ul class="footer-list">
@@ -14,6 +14,8 @@
                                 <li><a href="#">聯絡我們</a></li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="col-6 col-md-4">
                         <div class="footer-list-block">
                             <h6>主要業務</h6>
                             <ul class="footer-list">
@@ -24,7 +26,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-6 col-md-4">
                         <div class="footer-list-block">
                             <h6>綠電教育</h6>
                             <ul class="footer-list">
@@ -34,6 +36,8 @@
                                 <li><a href="#">能源轉換</a></li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="col-6 col-md-4">
                         <div class="footer-list-block">
                             <h6>台灣綠能</h6>
                             <ul class="footer-list">
@@ -43,7 +47,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-6 col-md-4">
                         <div class="footer-list-block">
                             <h6>ESG</h6>
                             <ul class="footer-list">
@@ -51,6 +55,8 @@
                                 <li><a href="#">永續經營</a></li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="col-6 col-md-4">
                         <div class="footer-list-block">
                             <h6>最新消息</h6>
                             <h6>聯絡我們</h6>
@@ -69,10 +75,9 @@
                         Tel: 02-2796-1122
                     </p>
                 </div>
-                
             </div>
         </div>
-        <div class="small text-muted text-end">Copyright &copy; 2021 - INA Energy Corp.</div>
+        <div class="small text-end">Copyright &copy; 2021 - INA Energy Corp.</div>
     </div>
 </footer>
 <!-- Bootstrap core JS-->

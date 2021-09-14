@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,AAAA,SAAS,CAAC;EACZ,UAAU,EAAE,mCAAmC;EAC/C,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,qBAAqB,EAAE,MAAM;EAC7B,eAAe,EAAE,KAAK;CACzB",
+    "sources": [
+        "../scss/esg.scss"
+    ],
+    "names": [],
+    "file": "esg.css"
+}

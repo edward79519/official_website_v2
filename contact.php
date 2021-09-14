@@ -43,8 +43,8 @@
                             </iframe>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="infor-form bg-primary text-white p-4">
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="infor-form bg-primary text-white p-4 shadow">
                             <form>
                                 <div class="row">
                                     <div class="form-group col-lg-6 mb-3">
@@ -68,7 +68,7 @@
                                         <textarea rows="5" type="text" class="form-control" id="message" placeholder="寫些東西...."></textarea>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-secondary my-2">送出</button>
+                                <button type="submit" class="btn btn-secondary my-2 shadow">送出</button>
                             </form>
                         </div>
                     </div>

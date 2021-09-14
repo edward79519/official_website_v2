@@ -8,7 +8,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">關於寶晶</a>
+                            <a class="nav-link dropdown-toggle" href="about.php" data-bs-toggle="dropdown">關於寶晶</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="about.php#pagetop">關於寶晶</a></li>
                                 <li><a class="dropdown-item" href="about.php#team">營運團隊</a></li>
@@ -29,28 +29,28 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="education.php" data-bs-toggle="dropdown">綠電教育</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="education.php#page-top">全球暖化</a></li>
+                                <li><a class="dropdown-item" href="education.php#pagetop">全球暖化</a></li>
                                 <li><a class="dropdown-item" href="education.php#pollution">環境汙染</a></li>
                                 <li><a class="dropdown-item" href="education.php#international">國際能源政策</a></li>
                                 <li><a class="dropdown-item" href="education.php#transformation">能源轉換</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">台灣綠能</a>
+                            <a class="nav-link dropdown-toggle" href="taiwangreen.php" data-bs-toggle="dropdown">台灣綠能</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">能源與環境計畫</a></li>
-                                <li><a class="dropdown-item" href="#">產業概況與策略</a></li>
-                                <li><a class="dropdown-item" href="#">次世代環境教育</a></li>
+                                <li><a class="dropdown-item" href="taiwangreen.php#pagetop">能源與環境計畫</a></li>
+                                <li><a class="dropdown-item" href="taiwangreen.php#stratagy">產業概況與策略</a></li>
+                                <li><a class="dropdown-item" href="taiwangreen.php#nextgenedu">次世代環境教育</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">ESG</a>
+                            <a class="nav-link dropdown-toggle" href="esg.php" data-bs-toggle="dropdown">ESG</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">公司治理</a></li>
-                                <li><a class="dropdown-item" href="#">永續經營</a></li>
+                                <li><a class="dropdown-item" href="esg.php#pagetop">公司治理</a></li>
+                                <li><a class="dropdown-item" href="esg.php#esgmv">永續經營</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">最新消息</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">最新消息</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">聯絡我們</a></li>
                     </ul>
                 </div>

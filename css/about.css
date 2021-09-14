@@ -4,18 +4,9 @@
   }
 }
 
-h2 {
-  font-size: 60px;
-}
-
 header.masthead {
   margin-top: 92px;
   background-image: url("../assets/img/about/about-header.jpg");
-}
-
-header.masthead h1 {
-  font-size: 80px;
-  font-weight: 500;
 }
 
 @media (min-width: 992px) {
@@ -25,7 +16,7 @@ header.masthead h1 {
 }
 
 #company p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.8em;
   text-align: justify;
@@ -34,36 +25,25 @@ header.masthead h1 {
 .card {
   background-color: none;
   border-width: 1px;
-  border-color: darkorange;
   border-radius: 0;
 }
 
 .card h3 {
-  font-size: 40px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .card h4 {
-  font-size: 25px;
-  color: brown;
+  font-size: 1.3rem;
+  color: #9C4E21;
+  font-weight: 400;
 }
 
 .card p {
-  font-size: 20px;
   text-align: justify;
 }
 
 @media (min-width: 1399px) {
-  .card h3 {
-    font-size: 60px;
-    font-weight: 700;
-  }
-  .card h4 {
-    font-size: 40px;
-    color: brown;
-  }
   .card p {
-    font-size: 25px;
     text-align: justify;
   }
 }
@@ -84,7 +64,7 @@ header.masthead h1 {
 
 .bg-join-left {
   position: relative;
-  background-color: #FFD5AA6B;
+  background-color: rgba(255, 128, 0, 0.2);
   text-align: right;
 }
 
@@ -118,7 +98,7 @@ header.masthead h1 {
 .bg-join-right {
   position: relative;
   vertical-align: bottom;
-  background-color: #CC543AB5;
+  background-color: rgba(156, 78, 33, 0.7);
 }
 
 .join-right {

@@ -37,16 +37,16 @@
             </div>
         </section>
         <!-- Team-->
-        <section class="page-section bg-primary" id="team">
+        <section class="page-section bg-light" id="team">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-12 text-center mb-5">
-                        <h2 class="text-white mt-0">營運團隊</h2>
-                        <hr class="divider divider-light" />
+                        <h2 class="mt-0">營運團隊</h2>
+                        <hr class="divider" />
                     </div>
                 </div>
                 <div class="row gx-5 gx-lg-5 gy-5 justify-content-center">
-                    <div class="col-lg-10">
+                    <div class="col-lg-8">
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 d-flex">
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-8">
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 d-flex order-md-last">
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-8">
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 d-flex">
@@ -109,7 +109,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="col-lg-12"></div>
+                    <div class="col-lg-4 d-flex align-items-stretch">
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
@@ -130,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 align-items-stretch">
+                    <div class="col-lg-4 align-items-stretch">
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">

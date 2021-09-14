@@ -1,6 +1,105 @@
-.bg-footer {
-    background-color: #FFD6B2;
+$ina_orange: #FF8000;
+$ina_orange_2: #DE700B;
+$ina_orange_3: #BD5F16;
+$ina_orange_4: #9C4E21;
+$ina_gray: #666666;
+$ina_text_dark: #333333;
+
+
+/*! 調整原本CSS範本的顏色 */
+.bg-primary {
+    background-color: $ina_orange_2 !important;
 }
+
+
+.btn-primary {
+    color: #fff;
+    background-color: $ina_orange;
+    border-color: $ina_orange;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: $ina_orange_2;
+    border-color: $ina_orange_3;
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: $ina_orange_2;
+    border-color: $ina_orange_3;
+    box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: $ina_orange_3;
+    border-color: $ina_orange_4;
+}
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+}
+.btn-primary:disabled, .btn-primary.disabled {
+    color: #fff;
+    background-color: $ina_orange;
+    border-color: $ina_orange;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: $ina_orange;
+}
+
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
+    background-color: $ina_orange;
+}
+
+.nav-link {
+    color: $ina_orange;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: $ina_orange;
+}
+
+hr.divider {
+    background-color: $ina_orange;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+    color: $ina_orange;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: $ina_orange !important;
+}
+
+@media (min-width: 992px) {
+    #mainNav.navbar-shrink .navbar-brand:hover {
+        color: $ina_orange;
+    }
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+        color: $ina_orange;
+    }
+}
+
+/* @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+    .navbar .nav-item .dropdown-menu .dropdown-item:hover{
+        color: #fff;
+        text-decoration: none;
+        background-color: $ina_orange;
+    }
+} */
+
+.dropdown-item {
+  font-size: 0.9rem;
+}
+
+
+/*! 新增頁尾樣式 */
+.bg-footer {
+    color: white;
+    background-color: #626262;
+}       
 
 .footer-title {
     h3 {
@@ -23,10 +122,11 @@
 }
 
 .footer-list-block {
-    padding-top: 1rem;
+    font-size: small;
+    padding-top: 2rem;
     h6 {
-        font-weight: bold;
-        font-size: large;
+        font-weight: 500;
+        font-size: medium;
     }
 }
 
@@ -35,13 +135,32 @@
     margin: 0;
     padding: 0 0 0 1em;
 
+    a {
+        color: white;
+    }
     a:link {
-        color: black;
+        color: white;
+        font-weight: lighter;
         text-decoration: none;
     }
-    
+    a:hover {
+        color: $ina_orange;
+    }
+    a:active {
+        color: $ina_orange;
+    }
     a:visited {
-        color: black;
+        color: white;
+        font-weight: lighter;
         text-decoration: none;
     }
 }
+
+.btn-md {
+    padding: 1rem 2rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8rem;
+  }

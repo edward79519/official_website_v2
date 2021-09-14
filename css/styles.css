@@ -11448,18 +11448,3 @@ header.masthead h1, header.masthead .h1 {
 .navbar .nav-item .dropdown-menu {
   border: none;
 }
-
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-  .navbar .nav-item .dropdown-menu .dropdown-item:hover{
-    color: #fff;
-    text-decoration: none;
-    background-color: #f4623a;
-  }
-}
-
-.dropdown-item {
-  font-size: 0.9rem;
-}

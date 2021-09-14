@@ -20,8 +20,8 @@
                         <h1 class="text-white font-weight-bold">台灣再生能源專業服務</h1>
                     </div>
                     <div class="col-lg-8 align-self-baseline text-end">
-                        <p class="text-white-75 mb-5">環境保護 | 社會責任 | 普惠綠能 | 綠色承諾</p>
-                        <a class="btn btn-primary btn-xl" href="about.php">關於寶晶</a>
+                        <p class="text-white mb-5 font-weight-bold">環境保護 | 社會責任 | 普惠綠能 | 綠色承諾</p>
+                        <a class="btn btn-primary btn-md" href="about.php">關於寶晶</a>
                     </div>
                 </div>
             </div>

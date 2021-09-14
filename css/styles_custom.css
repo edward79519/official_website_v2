@@ -1,5 +1,102 @@
+@charset "UTF-8";
+/*! 調整原本CSS範本的顏色 */
+.bg-primary {
+  background-color: #DE700B !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #FF8000;
+  border-color: #FF8000;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #DE700B;
+  border-color: #BD5F16;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #DE700B;
+  border-color: #BD5F16;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+}
+
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #BD5F16;
+  border-color: #9C4E21;
+}
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+}
+
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #fff;
+  background-color: #FF8000;
+  border-color: #FF8000;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #FF8000;
+}
+
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
+  background-color: #FF8000;
+}
+
+.nav-link {
+  color: #FF8000;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #FF8000;
+}
+
+hr.divider {
+  background-color: #FF8000;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+  color: #FF8000;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #FF8000 !important;
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #FF8000;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #FF8000;
+  }
+}
+
+/* @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+    .navbar .nav-item .dropdown-menu .dropdown-item:hover{
+        color: #fff;
+        text-decoration: none;
+        background-color: $ina_orange;
+    }
+} */
+.dropdown-item {
+  font-size: 0.9rem;
+}
+
+/*! 新增頁尾樣式 */
 .bg-footer {
-  background-color: #FFD6B2;
+  color: white;
+  background-color: #626262;
 }
 
 .footer-title h3 {
@@ -19,12 +116,13 @@
 }
 
 .footer-list-block {
-  padding-top: 1rem;
+  font-size: small;
+  padding-top: 2rem;
 }
 
 .footer-list-block h6 {
-  font-weight: bold;
-  font-size: large;
+  font-weight: 500;
+  font-size: medium;
 }
 
 .footer-list {
@@ -33,13 +131,36 @@
   padding: 0 0 0 1em;
 }
 
+.footer-list a {
+  color: white;
+}
+
 .footer-list a:link {
-  color: black;
+  color: white;
+  font-weight: lighter;
   text-decoration: none;
 }
 
+.footer-list a:hover {
+  color: #FF8000;
+}
+
+.footer-list a:active {
+  color: #FF8000;
+}
+
 .footer-list a:visited {
-  color: black;
+  color: white;
+  font-weight: lighter;
   text-decoration: none;
+}
+
+.btn-md {
+  padding: 1rem 2rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8rem;
 }
 /*# sourceMappingURL=styles_custom.css.map */
