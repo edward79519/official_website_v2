@@ -34,7 +34,7 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-3 text-center mb-5">
                         <h3 class="text-bold text-primary">環境保護</h3>
-                        <h5>Environment(E)</h5>
+                        <h5><span class="color-brown">E</span>nvironment</h5>
                         <ul class="list-group-flush m-0 p-0">
                             <li class="list-group-item border-0">空氣汙染</li>
                             <li class="list-group-item border-0">能源管理</li>
@@ -47,7 +47,7 @@
                     </div>
                     <div class="col-md-3 text-center mb-5">
                         <h3 class="text-bold text-primary">社會責任</h3>
-                        <h5>Social(S)</h5>
+                        <h5><span class="color-brown">S</span>ocial</h5>
                         <ul class="list-group-flush m-0 p-0">
                             <li class="list-group-item border-0">人權</li>
                             <li class="list-group-item border-0">社區關係</li>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-md-3 text-center mb-5">
                         <h3 class="text-bold text-primary">公司治理</h3>
-                        <h5>Governance(G)</h5>
+                        <h5><span class="color-brown">G</span>overnance</h5>
                         <ul class="list-group-flush m-0 p-0">
                             <li class="list-group-item border-0">商業倫理</li>
                             <li class="list-group-item border-0">物料採購</li>

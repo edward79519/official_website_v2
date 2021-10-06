@@ -38,13 +38,22 @@ header.masthead {
         font-weight: 500;
     }
     h4 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         color: $ina_orange_4;
         font-weight: 400;
     }
-    p {
-        text-align: justify;
+    .card-text{
+        p {
+            display: block;
+
+            text-align: justify;
+        }
     }
+    
+    .card-text-vtcl{
+        min-height: 200px;
+    }
+
     @media (min-width: 1399px) {
         p {
             text-align: justify;
@@ -132,4 +141,31 @@ header.masthead {
         }
     }
 }
+
+.child {
+    border: rgb(240, 240, 240) solid 1px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-bottom: 5em;
+    
+    .child-title {
+        font-family: shippori-mincho, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2rem;
+        display: block;
+        width: 12em;
+        margin-left: 0;
+    }
+
+    .child-cont {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 350px;
+        display: block;
+        text-align: justify;
+    }
+}
+
+
 

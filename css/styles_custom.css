@@ -163,4 +163,32 @@ hr.divider {
   border: none;
   border-radius: 8rem;
 }
+
+@media (min-width: 992px) {
+  #mainNav {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
 /*# sourceMappingURL=styles_custom.css.map */

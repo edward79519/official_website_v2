@@ -562,27 +562,6 @@
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
-                                        <h5 class="card-title text-cardtitle mt-3">國際可再生能源機構</h5>
-                                        <h6 class="card-title">IRENA, International Renewable Energy Agency</h4>
-                                        <p class="card-text mt-5">
-                                        IRENA提供世界各國再生能源政策諮詢、建設能力及技術轉讓。
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
-                        <div class="card mb-3 p-0 shadow">
-                            <div class="row g-0">
-                                <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
-                                </div>
-                                <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
-                                    <div class="card-body px-4 pb-5">
                                         <h5 class="card-title text-cardtitle mt-3">鴨子曲線</h5>
                                         <h6 class="card-title">Duck Curvey</h4>
                                         <p class="card-text mt-5">
@@ -856,7 +835,7 @@
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
-                                        <h5 class="card-title text-cardtitle mt-3">Our Changing Climate: 這有可能是我們達到100%使用再生能源的辦法嗎?</h5>
+                                        <h5 class="card-title text-cardtitle mt-3">Our Changing Climate: 達成100% 使用再生能源的辦法？</h5>
                                         <h6 class="card-title">Our Changing Climate: Could This Be the Solution to Reaching 100% Renewable Energy?​</h4>
                                         <p class="card-text mt-5">
                                         達成100%利用再生能源需要很多解決的問題，包含再生能源轉換率提升與儲能設備普及，如何在2050年達成這個目標，這部影片提供了相關解答。

@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/qot7dle.css">
         <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="css/timeline.css">
+        <link rel="stylesheet" href="css/timeline2.css">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>
@@ -99,10 +100,10 @@
                                 </div>
                                 <div class="col-md-8 align-items-center d-flex align-items-stretch justify-content-center">
                                     <div class="card-body px-4 pb-5">
-                                        <h3 class="card-title mt-3">許桂章</h5>
-                                        <h4 class="card-title">總經理</h4>
+                                        <h3 class="card-title mt-3">賴明宗</h5>
+                                        <h4 class="card-title">副總經理</h4>
                                         <p class="card-text mt-5">
-                                        96年創辦旭泓全球光電股份有限公司，擔任董事長暨總經理，帶領旭泓團隊，成為世界第一家量產P型PERC電池的領導廠商，在太陽能產業10餘年經驗，帶領中美晶太陽能矽晶圓、電池與模組團隊。
+                                        為台北大學經濟學碩士畢業，歷任大中票券、國際票券業務經理，參加金融研訓院107年太陽光電金融培訓班，任職金融機構20年，具大型企業徵授信業務及太陽光電系統融資經驗，負責城市發展電業團隊財務融資規劃。
                                         </p>
                                     </div>
                                 </div>
@@ -123,7 +124,7 @@
                                     <div class="card-body px-4 pb-5">
                                         <h3 class="card-title mt-3">賴泓賓</h5>
                                         <h4 class="card-title">協理</h4>
-                                        <p class="card-text mt-5">
+                                        <p class="card-text card-text-vtcl mt-5">
                                         成大土木系及土木研究所結構材料組畢業，並取得高考土木類別大地工程技師資格，並有營建署工地主任執照、公共工程委員會公共工程品質管理人員執照，曾參與台電核能四廠、台北捷運、高雄捷運、高速公路、台北/台中土地開發重劃工程（各40公頃）…等20件以上大型公共工程合計數百億以上工程，計有20年規劃、施工及管理經驗。
                                         </p>
                                     </div>
@@ -144,7 +145,7 @@
                                     <div class="card-body px-4 pb-5">
                                         <h3 class="card-title mt-3">陳宏基</h5>
                                         <h4 class="card-title">處長</h4>
-                                        <p class="card-text mt-5">
+                                        <p class="card-text card-text-vtcl mt-5">
                                         台灣科技大學電機工程碩士、美國賓州大學電力系統工程研究班結業，任職台電30餘年，歷任工程管理課課長、工務段經理、變電技術組組長及變電副處長，曾於民國74年5-6月赴瑞士（BBC、S+S公司）及西德（AGE公司）研討台電首次引進中港E/S345KVGIS之現場安裝及試驗。
                                         </p>
                                     </div>
@@ -158,115 +159,214 @@
         <section class="page-section" id="child">
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">子公司介紹</h2>
-                <hr class="divider" />
-                <div class="row gx-4 gx-lg-5 align-items-center">
-                    <div class="col-lg-12 text-center">
-                        <div class="mt-5">
-                            <img src="assets/img/about/child.png" class="img-fluid">
+                <hr class="divider mb-5" />
+                <div class="row gx-3 align-items-center justify-content-center">
+                    <div class="shadow col-10 col-lg-5 mx-3 child">
+                        <div class="d-flex align-items-center">
+                            <div class="child-title text-end">
+                                城市發展<br/>
+                                電業 
+                            </div>
+                            <span class="material-icons md-36 text-primary">arrow_right</span>
+                            <div class="child-cont">
+                                屏東林邊地面型電站，容量 86MW ，最終擴展至 99MW。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow col-10 col-lg-5 mx-3 child">
+                        <div class="d-flex align-items-center">
+                            <div class="child-title text-end">
+                                寶興<br/>
+                                能源 
+                            </div>
+                            <span class="material-icons md-36 text-primary">arrow_right</span>
+                            <div class="child-cont">
+                                枋寮地面型電站，容量 120MW，長期發展至 400MW​。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow col-10 col-lg-5 mx-3 child">
+                        <div class="d-flex align-items-center">
+                            <div class="child-title text-end">
+                                寶發<br/>
+                                能源 
+                            </div>
+                            <span class="material-icons md-36 text-primary">arrow_right</span>
+                            <div class="child-cont">
+                                屋頂型太陽能電站，以持有為主，中長期規劃至 50MW 以上。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow col-10 col-lg-5 mx-3 child">
+                        <div class="d-flex align-items-center">
+                            <div class="child-title text-end">
+                                寶運<br/>
+                                能源 
+                            </div>
+                            <span class="material-icons md-36 text-primary">arrow_right</span>
+                            <div class="child-cont">
+                                集團內太陽能電站運維服務、EPC 工程服務​。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow col-10 col-lg-5 mx-3 child">
+                        <div class="d-flex align-items-center">
+                            <div class="child-title text-end">
+                                寶糖<br/>
+                                能源 
+                            </div>
+                            <span class="material-icons md-36 text-primary">arrow_right</span>
+                            <div class="child-cont">
+                                台糖營農型示範案場太陽能電站，已得標容量近 2MW。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow col-10 col-lg-5 mx-3 child">
+                        <div class="d-flex align-items-center">
+                            <div class="child-title text-end">
+                                寶宏<br/>
+                                能源 
+                            </div>
+                            <span class="material-icons md-36 text-primary">arrow_right</span>
+                            <div class="child-cont">
+                                台糖營農型大型太陽光電投標案，容量近 500MW (進行中)​。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow col-10 col-lg-5 mx-3 child">
+                        <div class="d-flex align-items-center">
+                            <div class="child-title text-end">
+                                寶儲<br/>
+                                能源 
+                            </div>
+                            <span class="material-icons md-36 text-primary">arrow_right</span>
+                            <div class="child-cont">
+                                因應儲能業務發展所設置，台電已成立電力交易平台​。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow col-10 col-lg-5 mx-3 child">
+                        <div class="d-flex align-items-center">
+                            <div class="child-title text-end">
+                                寶富<br/>
+                                能源 
+                            </div>
+                            <span class="material-icons md-36 text-primary">arrow_right</span>
+                            <div class="child-cont">
+                                因應未來電業自由化成立之再生能源售電業​。
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="page-section bg-light" id="timeline">
+        <section class="page-section bg-light" id="timeline2">
             <div class="container">
-            <h2 class="text-center mt-0 ">發展歷程</h2>
+                <h2 class="text-center mt-0 ">發展歷程</h2>
                 <hr class="divider" />
                 <div class="row py-5">
                     <div class="col-md-12">
-                        <div class="main-timeline">
-                            <div class="timeline">
-                                <span class="timeline-icon">Feb.</span>
-                                <div class="timeline-content">
+                        <div class="main-timeline2">
+                            
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3">
+                                        寶晶能源股份有限公司正式成立
+                                    </p>
+                                </div>
+                                <div class="year"><span>2018</span><span class="month">07</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
                                     <p class="description py-3 ">
-                                    股本增資為4億元。
+                                        股本增資為4億元。
                                     </p>
                                 </div>
-                                <div class="year"><span>2019</span></div>
+                                <div class="year"><span>2019</span><span class="month">02</span></div>
                             </div>
-                            <div class="timeline">
-                                <span class="timeline-icon">Aug.</span>
-                                <div class="timeline-content">
-                                    <p class="description py-3">
-                                    獲選為「屏東縣嚴重地層下陷地區土地活化利用暨太陽光電發電業整體規劃發展計畫」(簡稱中央光電專區) 合格廠商。
-                                    </p>
-                                </div>
-                                <div class="year"><span>2019</span></div>
-                            </div>
-                            <div class="timeline">
-                                <span class="timeline-icon">Sept.</span>
-                                <div class="timeline-content">
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
                                     <p class="description py-3 ">
-                                    設立屏東辦事處。
+                                        獲選為「屏東縣嚴重地層下陷地區土地活化利用暨太陽光電發電業整體規劃發展計畫」（簡稱中央光電專區）合格廠商。<br/>
+                                        與 ENcome 正式簽約成為合作夥伴。
                                     </p>
                                 </div>
-                                <div class="year"><span>2019</span></div>
+                                <div class="year"><span></span><span class="month">08</span></div>
                             </div>
-                            <div class="timeline">
-                                <span class="timeline-icon">Aug.</span>
-                                <div class="timeline-content">
-                                    <p class="description py-3">
-                                    與ENcome正式簽約為合作夥伴。ENcome為歐陸最大維運公司，率先取得歐洲太陽能業者組織推動之太陽能系統維運標章Solar O&M Best Practices Mark。
-                                    </p>
-                                </div>
-                                <div class="year"><span>2019</span></div>
-                            </div>
-                            <div class="timeline">
-                                <span class="timeline-icon">Dec.</span>
-                                <div class="timeline-content">
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
                                     <p class="description py-3 ">
-                                    股本增資為8.795億元 (遠雄人壽 入股)
+                                        成立屏東辦公室
                                     </p>
                                 </div>
-                                <div class="year"><span>2019</span></div>
+                                <div class="year"><span></span><span class="month">09</span></div>
                             </div>
-                            <div class="timeline">
-                                <span class="timeline-icon">Mar.</span>
-                                <div class="timeline-content">
-                                    <p class="description py-3">
-                                    屏東縣林邊鄉99MW太陽能電站第一期動工
-                                    </p>
-                                    <p class="description py-3">
-                                    股本增資為12.4億元 (國泰證券投資信託股份有限公司 入股)
-                                    </p>
-                                </div>
-                                <div class="year"><span>2020</span></div>
-                            </div>
-                            <div class="timeline">
-                                <span class="timeline-icon">Aug.</span>
-                                <div class="timeline-content">
-                                    <p class="description py-3">
-                                    寶晶能源100%持股子公司「寶興能源」 48.8億聯貸案完成簽約，本次聯貸案授信用途主要為建置太陽能電廠暨營運所需資金，參與融資的銀行計有8家，超額認購至1.3倍。
-                                    </p>
-                                </div>
-                                <div class="year"><span>2020</span></div>
-                            </div>
-                            <div class="timeline">
-                                <span class="timeline-icon">Sept.</span>
-                                <div class="timeline-content">
-                                    <p class="description py-3">
-                                    寶晶能源100%持股子公司「城市發展電業」為支應屏東縣太陽能電廠建置所需資金，委任華南銀行統籌主辦新臺幣35億元聯貸案於9月4日(五)完成簽約。
-                                    </p>
-                                </div>
-                                <div class="year"><span>2020</span></div>
-                            </div>
-                            <div class="timeline">
-                                <span class="timeline-icon">Nov.</span>
-                                <div class="timeline-content">
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
                                     <p class="description py-3 ">
-                                    寶晶能源子公司城市發展電業自建升壓站 11 月 26 日併聯啟動，目前是屏東中央光電專區的第一例，此升壓站採用最高規格的「氣體絕緣開關設備（GIS）」可說是台灣民間業者第一。
+                                        增資為 8.795 億元 （遠雄人壽入股）
                                     </p>
                                 </div>
-                                <div class="year"><span>2020</span></div>
+                                <div class="year"><span></span><span class="month">12</span></div>
                             </div>
-                            <div class="timeline">
-                                <span class="timeline-icon">Dec.</span>
-                                <div class="timeline-content">
-                                    <p class="description py-3">
-                                    因人力編制擴展，台北總公司搬遷至今辦公地點：台北市內湖區行善路463號8樓(寶佳潭美大樓)。
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        屏東縣林邊鄉 99 MW 計畫動工
                                     </p>
                                 </div>
-                                <div class="year"><span>2020</span></div>
+                                <div class="year"><span>2020</span><span class="month">03</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        增資為 12.4 億元 （國泰證券投資信託入股）
+                                    </p>
+                                </div>
+                                <div class="year"><span></span><span class="month">02</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        100% 持股子公司「寶興能源」 48.8 億聯貸案，8 家銀行參與融資，超額認購至1.3倍
+                                    </p>
+                                </div>
+                                <div class="year"><span></span><span class="month">08</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        100% 持股子公司「寶興能源」 48.8 億聯貸案，8 家銀行參與融資，超額認購至1.3倍
+                                    </p>
+                                </div>
+                                <div class="year"><span></span><span class="month">09</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        自建升壓站併聯啟動，採用最高規格「氣體絕緣開關設備（GIS）」，為民間自建業者第一
+                                    </p>
+                                </div>
+                                <div class="year"><span></span><span class="month">11</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        因應公司編制擴展，搬遷總公司至今辦公地點：寶佳潭美大樓
+                                    </p>
+                                </div>
+                                <div class="year"><span></span><span class="month">12</span></div>
                             </div>
                         </div>
                     </div>

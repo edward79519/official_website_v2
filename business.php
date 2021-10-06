@@ -85,7 +85,11 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h3 class="my-3">自有電站電力交易平台輔助服務市場</h3>
-                        <p class="">因應台電在7/1公布試行平台，提供每日競價與多種交易產品使廠商躍躍欲試，寶晶超前部屬培養多位電力交易平台專業人員，加上專業維運團隊、工程師，服務企業與用電大戶解決方案，分析並提供效益最佳的專業建議，達成企業用戶在電力穩定及因應政府政策的基本要求之上。</p>
+                        <p class="mt-2">
+                            合格交易者，以自有資源參與台灣電力交易平台新市場里程碑，並朝向未來聚合商、服務商邁進，
+                            以提供穩定電網相關之可靠服務為目標，同時具備案場維運所需能量及輸出能力，創造儲能安全與效益極大化。
+                        </p>
+                        <p class="">除持有自建案場外，亦持續尋找有意共同參與夥伴，以合作方式加入市場，為電力安全做出貢獻。</p>
                     </div>
                 </div>
             </div>
@@ -124,7 +128,7 @@
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">地面型</div>
                                     <div class="project-name">屏東林邊</div>
-                                    <div class="mt-3">99MW</div>
+                                    <div class="mt-3">99 MW</div>
                                     <div>屏東地層下陷不利耕作專區</div>
                                 </div>
                             </a>
@@ -135,7 +139,7 @@
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">地面型</div>
                                     <div class="project-name">屏東枋寮</div>
-                                    <div class="mt-3">120MW</div>
+                                    <div class="mt-3">120 MW</div>
                                     <div>屏東地層下陷不利耕作專區</div>
                                 </div>
                             </a>
@@ -146,7 +150,7 @@
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">地面型</div>
                                     <div class="project-name">嘉義大林</div>
-                                    <div class="mt-3">1.2MW</div>
+                                    <div class="mt-3">1.2 MW</div>
                                     <div>台糖農電共生實驗案場</div>
                                 </div>
                             </a>
@@ -159,9 +163,9 @@
                                 <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">屋頂型</div>
-                                    <div class="project-name">屏東老埤茶廠/宿舍</div>
-                                    <div class="mt-3">--MW</div>
-                                    <div>----</div>
+                                    <div class="project-name">屏東老埤茶廠 / 宿舍</div>
+                                    <div class="mt-3">520 KW</div>
+                                    <div>RC屋頂植筋式三角立面 / 棚架</div>
                                 </div>
                             </a>
                         </div>
@@ -171,8 +175,8 @@
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">屋頂型</div>
                                     <div class="project-name">桃園觀音翁財記</div>
-                                    <div class="mt-3">--MW</div>
-                                    <div>----</div>
+                                    <div class="mt-3">100 KW</div>
+                                    <div>浪板屋頂平鋪式</div>
                                 </div>
                             </a>
                         </div>
@@ -181,9 +185,9 @@
                                 <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">屋頂型</div>
-                                    <div class="project-name">桃園大園錦鋐氣密窗廠</div>
-                                    <div class="mt-3">--MW</div>
-                                    <div>----</div>
+                                    <div class="project-name">桃園大林錦鋐氣密窗廠</div>
+                                    <div class="mt-3">950 KW</div>
+                                    <div>RC屋頂三角立面</div>
                                 </div>
                             </a>
                         </div>
@@ -193,8 +197,8 @@
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">屋頂型</div>
                                     <div class="project-name">嘉義民雄國產實業</div>
-                                    <div class="mt-3">--MW</div>
-                                    <div>----</div>
+                                    <div class="mt-3">950 MW</div>
+                                    <div>浪板屋頂平鋪式</div>
                                 </div>
                             </a>
                         </div>
@@ -207,8 +211,8 @@
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">EPC</div>
                                     <div class="project-name">桃園佳龍環科廠</div>
-                                    <div class="mt-3">--MW</div>
-                                    <div>----</div>
+                                    <div class="mt-3">250 MW</div>
+                                    <div>浪板屋頂平鋪式</div>
                                 </div>
                             </a>
                         </div>
@@ -218,8 +222,8 @@
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">EPC</div>
                                     <div class="project-name">桃園佳龍觀音廠</div>
-                                    <div class="mt-3">--MW</div>
-                                    <div>----</div>
+                                    <div class="mt-3">400 MW</div>
+                                    <div>RC屋頂三角立面</div>
                                 </div>
                             </a>
                         </div>
@@ -229,8 +233,8 @@
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">EPC</div>
                                     <div class="project-name">桃園昌蒲廠</div>
-                                    <div class="mt-3">--MW</div>
-                                    <div>----</div>
+                                    <div class="mt-3">750 MW</div>
+                                    <div>植筋式地面車棚架</div>
                                 </div>
                             </a>
                         </div>
@@ -240,8 +244,8 @@
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">EPC</div>
                                     <div class="project-name">嘉義番路欣欣水泥</div>
-                                    <div class="mt-3">--MW</div>
-                                    <div>----</div>
+                                    <div class="mt-3">4 MW</div>
+                                    <div>屋頂、地面型合計</div>
                                 </div>
                             </a>
                         </div>

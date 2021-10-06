@@ -33,13 +33,18 @@ header.masthead {
 }
 
 .card h4 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #9C4E21;
   font-weight: 400;
 }
 
-.card p {
+.card .card-text p {
+  display: block;
   text-align: justify;
+}
+
+.card .card-text-vtcl {
+  min-height: 200px;
 }
 
 @media (min-width: 1399px) {
@@ -135,5 +140,30 @@ header.masthead {
   .join-right h2 {
     text-align: right;
   }
+}
+
+.child {
+  border: #f0f0f0 solid 1px;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-bottom: 5em;
+}
+
+.child .child-title {
+  font-family: shippori-mincho, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  display: block;
+  width: 12em;
+  margin-left: 0;
+}
+
+.child .child-cont {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 350px;
+  display: block;
+  text-align: justify;
 }
 /*# sourceMappingURL=about.css.map */
