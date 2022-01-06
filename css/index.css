@@ -61,6 +61,18 @@ header .content {
   font-weight: 700;
 }
 
+#goals h3.h4 {
+  font-family: "brandon-grotesque";
+  font-weight: 500;
+  font-size: 60px;
+}
+
+@media (min-width: 1200px) {
+  #goals h3.h4 {
+    font-size: 70px;
+  }
+}
+
 @media (min-width: 768px) {
   #goals h2 {
     font-weight: 700;
@@ -68,10 +80,25 @@ header .content {
   }
 }
 
-#goals h3.h4 {
-  font-family: "brandon-grotesque";
-  font-weight: 500;
-  font-size: 50px;
+#goals .info .info-title {
+  font-size: large;
+  font-weight: 700;
+  text-align: left;
+}
+
+#goals .info .info-text {
+  text-align: center;
+}
+
+#goals .info .info-unit {
+  margin-left: 10px;
+  color: darkgray;
+  font-size: 40%;
+}
+
+#goals .info .info-footer {
+  color: darkgray;
+  font-size: 40%;
 }
 
 .bg-block2 {
@@ -105,6 +132,10 @@ header .content {
   text-align: justify;
 }
 
+#news .news-height {
+  height: calc(100vh - 50px);
+}
+
 #news h2 {
   font-size: 35px;
   font-weight: 700;
@@ -114,6 +145,87 @@ header .content {
   #news h2 {
     font-weight: 700;
     font-size: 40px;
+  }
+}
+
+#news .news-board {
+  margin: 10px;
+  padding: 10px 0px 10px 0;
+  border: 1px #dfdfdf solid;
+  -webkit-box-shadow: 3px 3px 5px 0px #CCCCCC;
+          box-shadow: 3px 3px 5px 0px #CCCCCC;
+}
+
+#news .news-media {
+  padding: 0 10px 0 10px;
+  color: #FF8000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#news .news-media a {
+  text-decoration: none;
+}
+
+#news .news-img {
+  width: 100%;
+}
+
+#news .news-img img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#news .news-img-right {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#news .news-img-right img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#news .news-content {
+  padding: 0 10px 0 10px;
+}
+
+#news .news-title a {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+#news .news-title-right a {
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+#news .news-time {
+  color: darkgray;
+}
+
+#news .news-text {
+  margin-top: 1rem;
+  font-size: large;
+}
+
+#news .news-l-col {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  #news .news-l-col {
+    width: 50%;
   }
 }
 

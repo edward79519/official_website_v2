@@ -1,5 +1,32 @@
+header.masthead {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(66, 92, 68, 0.1)), to(rgba(66, 92, 68, 0.5))), url("../assets/img/contact/Contact_us.jpg");
+  background: linear-gradient(to bottom, rgba(66, 92, 68, 0.1) 0%, rgba(66, 92, 68, 0.5) 100%), url("../assets/img/contact/Contact_us.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.info {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  -webkit-box-shadow: gray 2px 2px 5px 0px;
+          box-shadow: gray 2px 2px 5px 0px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
 .infor-form {
-  border-radius: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: lightgray;
+  -webkit-box-shadow: gray 2px 2px 5px 0px;
+          box-shadow: gray 2px 2px 5px 0px;
+}
+
+.infor-form input, .infor-form textarea {
+  -webkit-box-shadow: darkgray 2px 2px 5px 0px;
+          box-shadow: darkgray 2px 2px 5px 0px;
 }
 
 .form-group label {

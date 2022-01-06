@@ -260,7 +260,7 @@
                 </div>
             </div>
         </section>
-        <section class="page-section bg-light" id="timeline2">
+        <section class="page-section bg-light" id="timeline">
             <div class="container">
                 <h2 class="text-center mt-0 ">發展歷程</h2>
                 <hr class="divider" />
@@ -345,7 +345,7 @@
                                 <span class="timeline2-icon"></span>
                                 <div class="timeline2-content">
                                     <p class="description py-3 ">
-                                        100% 持股子公司「寶興能源」 48.8 億聯貸案，8 家銀行參與融資，超額認購至1.3倍
+                                    100%持股子公司「城市發展電業」35億元聯貸案
                                     </p>
                                 </div>
                                 <div class="year"><span></span><span class="month">09</span></div>
@@ -368,31 +368,127 @@
                                 </div>
                                 <div class="year"><span></span><span class="month">12</span></div>
                             </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3">
+                                        成立寶鯨風能，進軍台灣離岸風電市場
+                                    </p>
+                                </div>
+                                <div class="year"><span>2021</span><span class="month">04</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        取得台糖大林薯光計畫，預計建置1.2MW之農電共生案場，獲得營農型光電服務市場的關鍵鑰匙
+                                    </p>
+                                </div>
+                                <div class="year"><span></span><span class="month">07</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        領銜籌組「中華民國太陽光電產業永續發展協會」，預計明年一月正式成立完成
+                                    </p>
+                                </div>
+                                <div class="year"><span></span><span class="month">08</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        領銜籌組「中華民國太陽光電產業永續發展協會」，預計明年一月正式成立完成
+                                    </p>
+                                </div>
+                                <div class="year"><span></span><span class="month">10</span></div>
+                            </div>
+                            <div class="timeline2">
+                                <span class="timeline2-icon"></span>
+                                <div class="timeline2-content">
+                                    <p class="description py-3 ">
+                                        成立寶威科技，提供再生能源監控系統之專業服務，增加集團多角化經營項目 <br>
+                                        與全球大型儲能電網 Fluence 達成策略合作，建置台電電力交易平台中的首座調頻輔助服務 (AFC) 建設
+                                    </p>
+                                </div>
+                                <div class="year"><span></span><span class="month">12</span></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="page-section h-100 py-0" id="join">
-            <div class="container-fluid h-100 p-0">
-                <div class="row gx-0 p-0 h-100">
-                    <div class="col-lg-6 m-0 p-0 align-items-stretch bg-join-left">
-                        <div class="join-left">
-                            <h1>
-                            Work
-                            with
-                            us!
-                            </h1>
+        <section class="page-section py-0" id="join">
+            <div id="portfolio">
+                    <div class="container-fluid p-0">
+                        <div class="row g-0 d-flex align-content-stretch align-items-stretch">
+                            <div class="col-sm-6">
+                                <a class="portfolio-box d-flex" href="" title="Project Name">
+                                    <img class="img-fluid" src="assets/img/about/Business-2.jpg" alt="..." />
+                                    <div class="portfolio-box-caption">
+                                        <div class="project-category text-white-75">台北辦公室</div>
+                                        <div class="project-name">太陽能案場設計人員</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6">
+                                <a class="portfolio-box" href="" title="Project Name">
+                                    <img class="img-fluid" src="assets/img/about/Discussion-2.jpg" alt="..." />
+                                    <div class="portfolio-box-caption">
+                                        <div class="project-category text-white-75">台北辦公室</div>
+                                        <div class="project-name">會計主管</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6">
+                                <a class="portfolio-box" href="" title="Project Name">
+                                    <img class="img-fluid" src="assets/img/about/Hiring-2.jpg" alt="..." />
+                                    <div class="portfolio-box-caption">
+                                        <div class="project-category text-white-75">屏東辦公室</div>
+                                        <div class="project-name">太陽能電站專案經理</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="text-center d-flex flex-column align-items-center justify-content-center h-100 w-100">
+                                    <div class="box">
+                                        <h2>加入我們！</h2>
+                                        <div class="btn btn-primary">查看所有職缺</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 m-0 p-0 align-items-stretch bg-join-right">
-                        <div class="join-right">
-                            <h1>加入我們</h1>
-                            <h2>It's time for a change! <span><a href="#">-></a></span></h2>    
+            </div>
+            <!-- <div class="container-fluid h-100 p-0">
+                <div class="row gx-0 p-0 h-100">
+                    <div class="col-lg-6 m-0 p-0 bg-join-left align-content-stretch h-50">
+                        <div class="join-content">
+                            <h2>太陽能案場設計人員</h2>
+                            <h3>台北辦公室</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 m-0 p-0 align-contents-stretch bg-join-right h-50">
+                        <div class="join-content">
+                            <h2>會計主管</h2>
+                            <h3>台北辦公室</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 m-0 p-0 align-contents-stretch bg-join-leftdown h-50">
+                        <div class="join-content">
+                            <h2>會計主管</h2>
+                            <h3>台北辦公室</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 m-0 p-0 align-contents-stretch bg-join-rightdown h-50">
+                        <div class="join-content">
+                            <h2>加入我們！</h2>
+                            <a class="btn join-btn" href="">查看職缺</a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
         <?php include __DIR__.'/include/__page_footer.php'; ?>
     </body>

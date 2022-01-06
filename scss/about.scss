@@ -65,82 +65,68 @@ header.masthead {
 }
 
 
-#join {
-    height: 100vh;
-    background-image: url("../assets/img/about/Joinus.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+// #join {
+//     height: 100vh;
+
+// }
+.join-content {
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin: auto;
+    h2 {
+        font-weight: 700;
+        text-shadow: 1px 1px 0px lightgray;
+    }
+    h3 {
+        font-weight: 700;
+        text-shadow: 1px 1px 0px lightgray;
+    }
 }
 
 .bg-join-left{
     position: relative;
-    background-color: rgba($ina_orange, 0.2);
-    text-align: right;
+    background-image: linear-gradient(to bottom, rgba(255, 128, 0, 0.7) 40%, rgba(255, 128, 0, 0.7) 40%), url("../assets/img/about/Business.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.join-left {
-    position: absolute;
-    top: 30%;
-    right: 15%;
-    h1 {
-        width: 3em;
-        font-size: 80px;
-        font-weight: 700;
-        text-align: right;
-    }
-    @media (max-width: 991px) {
-        top: auto;
-        right: auto;
-        left: 5%;
-        bottom: 5%;
-        h1 {
-            text-align: left;
-            width: auto;
-            font-size: 50px;
-        }
-    }
-    
-}
-
 
 .bg-join-right{
     position: relative;
-    vertical-align: bottom;
-    background-color: rgba($ina_orange_4, 0.7);
+    background-image: linear-gradient(to bottom, rgba(255, 128, 0, 0.7) 40%, rgba(255, 128, 0, 0.7) 40%), url("../assets/img/about/Discussion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-join-leftdown{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 128, 0, 0.7) 40%, rgba(255, 128, 0, 0.7) 40%), url("../assets/img/about/Hiring.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-join-rightdown{
+    background: rgba(255, 128, 0, 0.5);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-.join-right {
-    position: absolute;
-    bottom: 10%;
-    left: 25%;
-    color: white;
-    h1 {
-        font-size: 50px;
-        font-size: 700;
-    }
-    h2 {
-        font-size: 30px;
-        font-weight: 500;
-    }
-    a:link, a:active, a:visited, a:hover{
-        color: white;
-        text-decoration: none;
-    }
-    @media (max-width: 991px) {
-        bottom: 10%;
-        left: auto;
-        right: 5%;
-        h1 {
-            text-align: right;
-        }
-        h2 {
-            text-align: right;
-        }
-    }
-}
 
 .child {
     border: rgb(240, 240, 240) solid 1px;
@@ -168,5 +154,28 @@ header.masthead {
     }
 }
 
+.join-btn {
+    background-color: white;
+    color: black;
+}
 
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: rgba(255, 128, 0, 0.9);
+}
 
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media (max-width: 575px) {
+    .box{
+        height: calc(100vw*35/65);
+        padding-top: calc(100vw*35/65*0.3);
+    }
+}

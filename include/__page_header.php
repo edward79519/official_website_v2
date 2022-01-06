@@ -21,8 +21,8 @@
                             <a class="nav-link dropdown-toggle" href="business.php" data-bs-toggle="dropdown">主要業務</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="business.php#pagetop">創能</a></li>
-                                <li><a class="dropdown-item" href="business.php#saving">節能</a></li>
                                 <li><a class="dropdown-item" href="business.php#storage">儲能</a></li>
+                                <li><a class="dropdown-item" href="business.php#transaction">售電</a></li>
                                 <li><a class="dropdown-item" href="business.php#project">專案實績</a></li>
                             </ul>
                         </li>
@@ -43,14 +43,22 @@
                                 <li><a class="dropdown-item" href="taiwangreen.php#nextgenedu">次世代環境教育</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="esg.php" data-bs-toggle="dropdown">ESG</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="esg.php#pagetop">公司治理</a></li>
                                 <li><a class="dropdown-item" href="esg.php#esgmv">永續經營</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#">最新消息</a></li>
+                        <li class="nav-item"><a class="nav-link" href="investor.php">投資人專區</a></li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="investor.php" data-bs-toggle="dropdown">投資人專區</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="investor.php">財務資訊</a></li>
+                                <li><a class="dropdown-item" href="esg.php">ESG</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="news.php">最新消息</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">聯絡我們</a></li>
                     </ul>
                 </div>

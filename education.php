@@ -13,7 +13,7 @@
             <div class="container text-center px-4 px-lg-5 h-100">  
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">綠電教育</h1>
+                        <h1 class="font-weight-bold">綠電教育</h1>
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
@@ -23,28 +23,32 @@
         </header>
         <section class="page-section" id="globalwarm">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="row gx-4 gx-lg-5 mb-3 justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0">全球暖化</h2>
                         <hr class="divider" />
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5">
+                <div class="row gx-4 gx-lg-5 gy-3 gy-lg-5">
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0 d-flex ">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/01_parisagmt.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
-                                        <h5 class="card-title text-cardtitle mt-3">巴黎氣候協定</h5>
+                                        <h5 class="card-title text-cardtitle mt-3">
+                                                巴黎氣候協定
+                                        </h5>
                                         <h6 class="card-title">The Paris Agreement</h4>
                                         <p class="card-text mt-5">
-                                        巴黎氣候協定於2015年由195國簽署，期望力阻全球氣溫上升的趨勢。
+                                            巴黎氣候協定於2015年由195國簽署，期望力阻全球氣溫上升的趨勢。
                                         </p>
                                     </div>
                                 </div>
@@ -55,10 +59,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://sustainabledevelopment.un.org/frameworks/parisagreement" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/02_UNFCC.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -76,10 +82,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://ourworldindata.org/emissions-by-sector" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/03_OurWorldinData-logo.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -97,10 +105,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://en.wikipedia.org/wiki/Fossil_fuel_phase-out" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/04_wiki.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -120,21 +130,23 @@
 
         <section class="page-section bg-light" id="pollution">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="row gx-4 gx-lg-5 mb-3 justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0">環境污染</h2>
                         <hr class="divider" />
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5">
+                <div class="row gx-4 gx-lg-5 gy-3 gy-lg-5">
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0 d-flex ">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.solarpowereurope.org/agri-pv-how-solar-enables-the-clean-energy-transition-in-rural-areas/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/05_solarpowereurope.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -152,10 +164,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.pv-magazine.com/2020/06/02/agricultural-pv-emerges-as-japans-next-opportunity/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/06_pvmgz.jpg"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -173,10 +187,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.youtube.com/watch?v=nz-NYAnviy0&ab_channel=EcoMasteryProject" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/07.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -194,10 +210,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.vivintsolar.com/learning-center/benefits-of-solar-energy-to-the-environment" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/08.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -215,10 +233,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.energysage.com/solar/benefits-of-solar/environmental-benefits-solar/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/09.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -232,47 +252,28 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
-                        <div class="card mb-3 p-0 shadow">
-                            <div class="row g-0">
-                                <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
-                                </div>
-                                <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
-                                    <div class="card-body px-4 pb-5">
-                                        <h5 class="card-title text-cardtitle mt-3">太陽光電的五個優勢</h5>
-                                        <h6 class="card-title">Zen energy: 5 Advantages of solar energy on the environment</h4>
-                                        <p class="card-text mt-5">
-                                        Zen Energy 總結的五大太陽光電好處。
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
         <section class="page-section" id="international">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="row gx-4 gx-lg-5 mb-3 justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0">國際能源焦點</h2>
                         <hr class="divider" />
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5">
+                <div class="row gx-4 gx-lg-5 gy-3 gy-lg-5">
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0 d-flex ">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.ipcc.ch/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-01.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -290,10 +291,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.irena.org/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-02.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -311,10 +314,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.iea.org/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-03.jpg"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -332,10 +337,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.eia.gov/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-04.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -353,10 +360,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="http://www.nea.gov.cn/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-05.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -374,10 +383,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.bmwi.de/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-06.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -395,31 +406,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
-                                </div>
-                                <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
-                                    <div class="card-body px-4 pb-5">
-                                        <h5 class="card-title text-cardtitle mt-3">德國聯邦經濟事務與能源部</h5>
-                                        <h6 class="card-title">Germany Federal Ministry for Economic Affairs and Energy</h4>
-                                        <p class="card-text mt-5">
-                                        ​掌管德國的經濟與能源政策的政府部門。
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
-                        <div class="card mb-3 p-0 shadow">
-                            <div class="row g-0">
-                                <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.meti.go.jp/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-07.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -437,10 +429,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://energy.ec.europa.eu/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-08.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -458,10 +452,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.gov.uk/government/organisations/department-for-business-energy-and-industrial-strategy" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-09.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -479,10 +475,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://about.bnef.com/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-10.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -500,10 +498,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.researchgate.net/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-11.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -523,21 +523,23 @@
         </section>
         <section class="page-section bg-light" id="transformation">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="row gx-4 gx-lg-5 mb-3 justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0">能源轉換</h2>
                         <hr class="divider" />
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5">
+                <div class="row gx-4 gx-lg-5 gy-3 gy-lg-5">
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0 d-flex ">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://en.wikipedia.org/wiki/Solar_energy" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/04_wiki.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -555,10 +557,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.energy.gov/eere/articles/confronting-duck-curve-how-address-over-generation-solar-energy" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-01.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -576,10 +580,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.eupoliticalreport.eu/consumers-in-the-circular-economy/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-02.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -597,10 +603,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://taipei.diplo.de/tw-zh-tw/themen/-/2312690" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-03.jpg"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -618,10 +626,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.irena.org/Statistics/View-Data-by-Topic/Costs/Global-LCOE-and-Auction-values" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/2-02.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -639,10 +649,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.irena.org/publications/2019/May/Renewable-power-generation-costs-in-2018" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-04.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -660,10 +672,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.irena.org/publications/2020/Jul/Renewable-energy-statistics-2020" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-05.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -681,10 +695,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.bloombergquint.com/business/the-world-will-get-half-its-power-from-wind-and-solar-by-2050" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-06.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -702,10 +718,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.cnbc.com/2014/11/24/7-outrageous-energy-sources-of-the-future.html" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-07.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -723,10 +741,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.greenpeace.org/usa/8-reasons-why-we-need-to-phase-out-the-fossil-fuel-industry/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-08.jpg"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -744,10 +764,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.theguardian.com/environment/2013/apr/17/why-cant-we-give-up-fossil-fuels" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-09.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -765,10 +787,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.inspirecleanenergy.com/blog/clean-energy-101/advantages-disadvantages-fossil-fuels" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-10.jpg"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -786,10 +810,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.brookings.edu/essay/why-are-fossil-fuels-so-hard-to-quit/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-11.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -807,10 +833,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://wordpressua.uark.edu/sustain/3-reasons-we-are-still-using-fossil-fuels/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-12.jpg"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -828,10 +856,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://ethical.net/our-changing-climate/solutions-to-reaching-100-renewable-energy/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-13.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -849,10 +879,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.youtube.com/watch?v=3_IoGGijsu4&ab_channel=CNBC" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-07.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">
@@ -870,10 +902,12 @@
                         <div class="card mb-3 p-0 shadow">
                             <div class="row g-0">
                                 <div class="col-md-4 col-lg-12 d-flex">
-                                    <img
-                                        src="assets/img/portfolio/thumbnails/1.jpg"
-                                        class="img-fluid"
-                                    />
+                                    <a href="https://www.isep.or.jp/en/1075/" target="_blank">
+                                        <img
+                                            src="assets/img/education/link_img/3-14.png"
+                                            class="img-fluid"
+                                        />
+                                    </a>
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center justify-content-center">
                                     <div class="card-body px-4 pb-5">

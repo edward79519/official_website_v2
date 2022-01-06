@@ -1,8 +1,52 @@
 header.masthead {
-    background: linear-gradient(to bottom, rgba(66, 92, 68, 0.8) 0%, rgba(66, 92, 68, 0.8) 100%), url("../assets/img/taiwangreen/header.jpg");
+    background: linear-gradient(to bottom, rgba(66, 92, 68, 0.1) 0%, rgba(66, 92, 68, 0.5) 100%), url("../assets/img/taiwangreen/header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
 }
 
+.sec-title {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-span {
+    font-family: Arial;
+    font-size: 200%;
+    font-weight: 700;
+    margin-right: 0.3em;
+}
+.sec-icon {
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sec-icon::before {
+    font-weight: 700 !important;
+}
+.sec-num {
+    font-size: 8rem;
+}
+.sec-unit {
+    font-size: 2rem;   
+}
+.sec-text {
+    font-weight: 700;
+    font-size: 20px;
+}
+.sec-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.abstract {
+    border: solid 1px rgb(241, 241, 241);
+    border-radius: 1px;
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+    box-shadow: lightgray 2px 2px 5px 0px;
+}

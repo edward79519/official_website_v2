@@ -4,59 +4,70 @@
             
             <div class="col-12 col-md-8 order-md-last">
                 <div class="row">
-                    <div class="col-6 col-md-4">
+                    <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
                             <h6>關於寶晶</h6>
                             <ul class="footer-list">
-                                <li><a href="#">營運團隊</a></li>
-                                <li><a href="#">子公司</a></li>
-                                <li><a href="#">發指歷程</a></li>
-                                <li><a href="#">聯絡我們</a></li>
+                                <li><a href="about.php#team">營運團隊</a></li>
+                                <li><a href="about.php#child">子公司介紹</a></li>
+                                <li><a href="about.php#timeline">發指歷程</a></li>
+                                <li><a href="about.php#join">加入我們</a></li>
+                                
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
                             <h6>主要業務</h6>
                             <ul class="footer-list">
-                                <li><a href="#">創能</a></li>
-                                <li><a href="#">節能</a></li>
-                                <li><a href="#">儲能</a></li>
-                                <li><a href="#">專案實績</a></li>
+                                <li><a href="business.php#pagetop">創能</a></li>
+                                <li><a href="business.php#storage">儲能</a></li>
+                                <li><a href="business.php#transaction">售電</a></li>
+                                <li><a href="business.php#project">專案實績</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
                             <h6>綠電教育</h6>
                             <ul class="footer-list">
-                                <li><a href="#">全球暖化</a></li>
-                                <li><a href="#">環境汙染</a></li>
-                                <li><a href="#">國際能源政策</a></li>
-                                <li><a href="#">能源轉換</a></li>
+                                <li><a href="education.php#pagetop">全球暖化</a></li>
+                                <li><a href="education.php#pollution">環境汙染</a></li>
+                                <li><a href="education.php#international">國際能源政策</a></li>
+                                <li><a href="education.php#transformation">能源轉換</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
                             <h6>台灣綠能</h6>
                             <ul class="footer-list">
-                                <li><a href="#">能源與環境計畫</a></li>
-                                <li><a href="#">產業概況與策略</a></li>
-                                <li><a href="#">次世代環境教育</a></li>
+                                <li><a href="taiwangreen.php#pagetop">能源與環境計畫</a></li>
+                                <li><a href="taiwangreen.php#stratagy">產業概況與策略</a></li>
+                                <li><a href="taiwangreen.php#nextgenedu">次世代環境教育</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
                             <h6>ESG</h6>
                             <ul class="footer-list">
-                                <li><a href="#">公司治理</a></li>
-                                <li><a href="#">永續經營</a></li>
+                                <li><a href="esg.php#pagetop">公司治理</a></li>
+                                <li><a href="esg.php#esgmv">永續經營</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-6 col-lg-3">
+                        <div class="footer-list-block">
+                            <h6>投資人專區</h6>
+                                <ul class="footer-list">
+                                    <li><a href="investor.php#monthly">簡明月報</a></li>
+                                    <li><a href="investor.php#fin">財務報表</a></li>
+                                    <li><a href="investor.php#perform">營運績效</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
                             <h6>最新消息</h6>
                             <h6>聯絡我們</h6>

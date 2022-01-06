@@ -58,88 +58,92 @@ header.masthead {
      object-fit: cover;
 }
 
-#join {
-  height: 100vh;
-  background-image: url("../assets/img/about/Joinus.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+.join-content {
+  width: 100%;
+  color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.join-content h2 {
+  font-weight: 700;
+  text-shadow: 1px 1px 0px lightgray;
+}
+
+.join-content h3 {
+  font-weight: 700;
+  text-shadow: 1px 1px 0px lightgray;
 }
 
 .bg-join-left {
   position: relative;
-  background-color: rgba(255, 128, 0, 0.2);
-  text-align: right;
-}
-
-.join-left {
-  position: absolute;
-  top: 30%;
-  right: 15%;
-}
-
-.join-left h1 {
-  width: 3em;
-  font-size: 80px;
-  font-weight: 700;
-  text-align: right;
-}
-
-@media (max-width: 991px) {
-  .join-left {
-    top: auto;
-    right: auto;
-    left: 5%;
-    bottom: 5%;
-  }
-  .join-left h1 {
-    text-align: left;
-    width: auto;
-    font-size: 50px;
-  }
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(255, 128, 0, 0.7)), color-stop(40%, rgba(255, 128, 0, 0.7))), url("../assets/img/about/Business.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 128, 0, 0.7) 40%, rgba(255, 128, 0, 0.7) 40%), url("../assets/img/about/Business.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .bg-join-right {
   position: relative;
-  vertical-align: bottom;
-  background-color: rgba(156, 78, 33, 0.7);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(255, 128, 0, 0.7)), color-stop(40%, rgba(255, 128, 0, 0.7))), url("../assets/img/about/Discussion.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 128, 0, 0.7) 40%, rgba(255, 128, 0, 0.7) 40%), url("../assets/img/about/Discussion.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.join-right {
-  position: absolute;
-  bottom: 10%;
-  left: 25%;
-  color: white;
+.bg-join-leftdown {
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(255, 128, 0, 0.7)), color-stop(40%, rgba(255, 128, 0, 0.7))), url("../assets/img/about/Hiring.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 128, 0, 0.7) 40%, rgba(255, 128, 0, 0.7) 40%), url("../assets/img/about/Hiring.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.join-right h1 {
-  font-size: 50px;
-  font-size: 700;
-}
-
-.join-right h2 {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.join-right a:link, .join-right a:active, .join-right a:visited, .join-right a:hover {
-  color: white;
-  text-decoration: none;
-}
-
-@media (max-width: 991px) {
-  .join-right {
-    bottom: 10%;
-    left: auto;
-    right: 5%;
-  }
-  .join-right h1 {
-    text-align: right;
-  }
-  .join-right h2 {
-    text-align: right;
-  }
+.bg-join-rightdown {
+  background: rgba(255, 128, 0, 0.5);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .child {
@@ -166,5 +170,31 @@ header.masthead {
   width: 350px;
   display: block;
   text-align: justify;
+}
+
+.join-btn {
+  background-color: white;
+  color: black;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+  background: rgba(255, 128, 0, 0.9);
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (max-width: 575px) {
+  .box {
+    height: calc(100vw*35/65);
+    padding-top: calc(100vw*35/65*0.3);
+  }
 }
 /*# sourceMappingURL=about.css.map */

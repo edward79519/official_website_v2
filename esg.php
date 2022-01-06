@@ -5,15 +5,16 @@
         <?php include __DIR__.'/include/__page_script_head.php'; ?>
         <link rel="stylesheet" href="https://use.typekit.net/qot7dle.css">
         <link rel="stylesheet" href="css/esg.css">
-
+    </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>
         <!-- Masthead-->
         <header class="masthead" id="pagetop">
             <div class="container text-center px-4 px-lg-5 h-100">  
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold"></h1>
+                    <div class="col-lg-10 align-self-end">
+                        <h1 class="text-white font-weight-bold">ESG</h1>
+                        <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                     </div>

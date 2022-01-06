@@ -191,4 +191,14 @@ hr.divider {
 .material-icons.md-48 {
   font-size: 48px;
 }
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 1200px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+}
 /*# sourceMappingURL=styles_custom.css.map */

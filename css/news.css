@@ -1,0 +1,118 @@
+header.masthead {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(88, 88, 88, 0.1)), to(rgba(97, 97, 97, 0.5))), url("../assets/img/news/banner.jpg");
+  background: linear-gradient(to bottom, rgba(88, 88, 88, 0.1) 0%, rgba(97, 97, 97, 0.5) 100%), url("../assets/img/news/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#news .news-height {
+  height: calc(100vh - 50px);
+}
+
+#news h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  #news h2 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
+
+#news .news-board {
+  margin: 10px;
+  padding: 10px 0px 10px 0;
+  border: 1px #dfdfdf solid;
+  -webkit-box-shadow: 3px 3px 5px 0px #CCCCCC;
+          box-shadow: 3px 3px 5px 0px #CCCCCC;
+}
+
+#news .news-media {
+  padding: 0 10px 0 10px;
+  color: #FF8000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#news .news-media a {
+  text-decoration: none;
+}
+
+#news .news-media-list {
+  padding: 0 10px 0 10px;
+  color: #FF8000;
+  font-size: 20px;
+  font-weight: 700;
+  width: 120px;
+}
+
+#news .news-media-list a {
+  text-decoration: none;
+}
+
+#news .news-img {
+  width: 100%;
+}
+
+#news .news-img img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#news .news-img-right {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#news .news-img-right img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#news .news-content {
+  padding: 0 10px 0 10px;
+}
+
+#news .news-title a {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+#news .news-title-right a {
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+#news .news-time {
+  color: darkgray;
+}
+
+#news .news-text {
+  margin-top: 1rem;
+  font-size: large;
+}
+
+#news .news-l-col {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  #news .news-l-col {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=news.css.map */
