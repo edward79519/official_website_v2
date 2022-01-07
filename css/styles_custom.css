@@ -150,8 +150,6 @@ hr.divider {
 }
 
 .footer-list a:visited {
-  color: white;
-  font-weight: lighter;
   text-decoration: none;
 }
 
@@ -200,5 +198,14 @@ hr.divider {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
   }
+}
+
+.footer-list-block h6 a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-list-block h6 a:hover {
+  color: #FF8000;
 }
 /*# sourceMappingURL=styles_custom.css.map */

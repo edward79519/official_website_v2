@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="css/timeline.css">
         <link rel="stylesheet" href="css/timeline2.css">
+        <title>關於寶晶 - 寶晶能源股份有限公司 INAEnergy</title>
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>
@@ -424,7 +425,7 @@
                     <div class="container-fluid p-0">
                         <div class="row g-0 d-flex align-content-stretch align-items-stretch">
                             <div class="col-sm-6">
-                                <a class="portfolio-box d-flex" href="" title="Project Name">
+                                <a class="portfolio-box d-flex" href="https://www.104.com.tw/job/76l1g" target="_blank" title="Project Name">
                                     <img class="img-fluid" src="assets/img/about/Business-2.jpg" alt="..." />
                                     <div class="portfolio-box-caption">
                                         <div class="project-category text-white-75">台北辦公室</div>
@@ -433,7 +434,7 @@
                                 </a>
                             </div>
                             <div class="col-sm-6">
-                                <a class="portfolio-box" href="" title="Project Name">
+                                <a class="portfolio-box" href="https://www.104.com.tw/job/7dotg" target="_blank" title="Project Name">
                                     <img class="img-fluid" src="assets/img/about/Discussion-2.jpg" alt="..." />
                                     <div class="portfolio-box-caption">
                                         <div class="project-category text-white-75">台北辦公室</div>
@@ -442,7 +443,7 @@
                                 </a>
                             </div>
                             <div class="col-sm-6">
-                                <a class="portfolio-box" href="" title="Project Name">
+                                <a class="portfolio-box" href="https://www.104.com.tw/job/6whol" target="_blank" title="Project Name">
                                     <img class="img-fluid" src="assets/img/about/Hiring-2.jpg" alt="..." />
                                     <div class="portfolio-box-caption">
                                         <div class="project-category text-white-75">屏東辦公室</div>
@@ -454,7 +455,7 @@
                                 <div class="text-center d-flex flex-column align-items-center justify-content-center h-100 w-100">
                                     <div class="box">
                                         <h2>加入我們！</h2>
-                                        <div class="btn btn-primary">查看所有職缺</div>
+                                        <a class="btn btn-primary" href="https://www.104.com.tw/company/1a2x6bkqah" target="_blank">查看所有職缺</a>
                                     </div>
                                 </div>
                             </div>

@@ -150,8 +150,6 @@ hr.divider {
         color: $ina_orange;
     }
     a:visited {
-        color: white;
-        font-weight: lighter;
         text-decoration: none;
     }
 }
@@ -191,3 +189,11 @@ hr.divider {
     }
 }
 
+.footer-list-block h6 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list-block h6 a:hover {
+    color: $ina_orange;
+}

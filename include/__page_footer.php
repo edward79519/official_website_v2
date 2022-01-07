@@ -12,7 +12,6 @@
                                 <li><a href="about.php#child">子公司介紹</a></li>
                                 <li><a href="about.php#timeline">發指歷程</a></li>
                                 <li><a href="about.php#join">加入我們</a></li>
-                                
                             </ul>
                         </div>
                     </div>
@@ -50,27 +49,17 @@
                     </div>
                     <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
-                            <h6>ESG</h6>
-                            <ul class="footer-list">
-                                <li><a href="esg.php#pagetop">公司治理</a></li>
-                                <li><a href="esg.php#esgmv">永續經營</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="footer-list-block">
                             <h6>投資人專區</h6>
                                 <ul class="footer-list">
-                                    <li><a href="investor.php#monthly">簡明月報</a></li>
-                                    <li><a href="investor.php#fin">財務報表</a></li>
-                                    <li><a href="investor.php#perform">營運績效</a></li>
+                                    <li><a href="investor.php">財務資訊</a></li>
+                                    <li><a href="esg.php">ESG</a></li>
                                 </ul>
                         </div>
                     </div>
                     <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
-                            <h6>最新消息</h6>
-                            <h6>聯絡我們</h6>
+                            <h6><a href="news.php">最新消息</a></h6>
+                            <h6><a href="contact.php">聯絡我們</a></h6>
                         </div>
                     </div>
                 </div>

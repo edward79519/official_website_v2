@@ -5,6 +5,7 @@
         <?php include __DIR__.'/include/__page_script_head.php'; ?>
         <link rel="stylesheet" href="https://use.typekit.net/qot7dle.css">
         <link rel="stylesheet" href="css/esg.css">
+        <title>ESG - 寶晶能源股份有限公司 INAEnergy</title>
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>
