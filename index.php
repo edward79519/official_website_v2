@@ -124,7 +124,7 @@
                         <div class="news-l-col d-flex flex-column">
                             <div class="news-board flex-fill">
                                 <div class="news-media my-3"><a href="https://view.ftv.com.tw/">民視異言堂</a></div>
-                                <div class="news-img"><img src="assets/img/news/break-news.jpg"></div>
+                                <div class="news-img"><img src="assets/img/news/break-news.jpg" alt="2021/11/27 民事異言堂 在惡地種綠金 專題報導"></div>
                                 <div class="news-content mt-3">
                                     <div class="news-title"><a href="https://view.ftv.com.tw/week.aspx?dd=20211127">在惡地種綠金</a></div>
                                     <div class="news-time">2021/11/27</div>
@@ -149,7 +149,7 @@
                                         </div>
                                     </div>
                                     <div class="w-50">
-                                        <div class="news-img-right my-auto"><img src="assets/img/news/right-3.png"></div>
+                                        <div class="news-img-right my-auto"><img src="assets/img/news/right-3.png" alt="2021/12/20 中時新聞網 《產業》寶佳&東元集團切入儲能"></div>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@
                                         </div>
                                     </div>
                                     <div class="w-50">
-                                        <div class="news-img-right my-0"><img src="assets/img/news/right-1.jpg"></div>
+                                        <div class="news-img-right my-0"><img src="assets/img/news/right-1.jpg" alt="2021/10/15 基隆綠能馬拉松報名開跑"></div>
                                     </div>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@
                                         </div>
                                     </div>
                                     <div class="w-50">
-                                        <div class="news-img-right my-auto"><img src="assets/img/news/right-2.jpg"></div>
+                                        <div class="news-img-right my-auto"><img src="assets/img/news/right-2.jpg" alt="2021/10/15 經理人 【U-Office Force管理手札】 寶晶能源企業"></div>
                                     </div>
                                 </div>
                             </div>

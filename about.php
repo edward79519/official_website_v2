@@ -58,6 +58,7 @@
                                     <img
                                         src="assets/img/about/chairman.jpg"
                                         class="img-fluid"
+                                        alt="寶晶能源 董事長 蔡佳晋"
                                     />
                                 </div>
                                 <div class="col-md-8 align-items-center d-flex align-items-stretch justify-content-center">
@@ -79,6 +80,7 @@
                                     <img
                                         src="assets/img/about/gemanager.jpg"
                                         class="img-fluid"
+                                        alt="寶晶能源 總經理 許桂章"
                                     />
                                 </div>
                                 <div class="col-md-8 align-items-center d-flex align-items-stretch justify-content-center">
@@ -100,6 +102,7 @@
                                     <img
                                         src="assets/img/about/subgemanager.jpg"
                                         class="img-fluid"
+                                        alt="寶晶能源 副總 賴明宗"
                                     />
                                 </div>
                                 <div class="col-md-8 align-items-center d-flex align-items-stretch justify-content-center">
@@ -122,6 +125,7 @@
                                     <img
                                         src="assets/img/about/asmanager.jpg"
                                         class="img-fluid"
+                                        alt="寶晶能源 協理 賴泓賓"
                                     />
                                 </div>
                                 <div class="col-md-8 col-lg-12 d-flex  align-items-center d-flex align-items-stretch justify-content-center">
@@ -143,6 +147,7 @@
                                     <img
                                         src="assets/img/about/director.jpg"
                                         class="img-fluid"
+                                        alt="寶晶能源 處長 陳宏基"
                                     />
                                 </div>
                                 <div class="col-md-8 col-lg-12 align-items-center d-flex align-items-stretch justify-content-center">
@@ -429,7 +434,7 @@
                         <div class="row g-0 d-flex align-content-stretch align-items-stretch">
                             <div class="col-sm-6">
                                 <a class="portfolio-box d-flex" href="https://www.104.com.tw/job/76l1g" target="_blank" title="Project Name">
-                                    <img class="img-fluid" src="assets/img/about/Business-2.jpg" alt="..." />
+                                    <img class="img-fluid" src="assets/img/about/Business-2.jpg" alt="寶晶能源 台北 太陽能案場設計人員" />
                                     <div class="portfolio-box-caption">
                                         <div class="project-category text-white-75">台北辦公室</div>
                                         <div class="project-name">太陽能案場設計人員</div>
@@ -438,7 +443,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <a class="portfolio-box" href="https://www.104.com.tw/job/7dotg" target="_blank" title="Project Name">
-                                    <img class="img-fluid" src="assets/img/about/Discussion-2.jpg" alt="..." />
+                                    <img class="img-fluid" src="assets/img/about/Discussion-2.jpg" alt="寶晶能源 台北 會計主管" />
                                     <div class="portfolio-box-caption">
                                         <div class="project-category text-white-75">台北辦公室</div>
                                         <div class="project-name">會計主管</div>
@@ -447,7 +452,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <a class="portfolio-box" href="https://www.104.com.tw/job/6whol" target="_blank" title="Project Name">
-                                    <img class="img-fluid" src="assets/img/about/Hiring-2.jpg" alt="..." />
+                                    <img class="img-fluid" src="assets/img/about/Hiring-2.jpg" alt="寶晶能源 屏東 太陽能電站專案經理" />
                                     <div class="portfolio-box-caption">
                                         <div class="project-category text-white-75">屏東辦公室</div>
                                         <div class="project-name">太陽能電站專案經理</div>

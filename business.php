@@ -40,6 +40,7 @@
                                     <img
                                         src="assets/img/business/solar_energy.jpg"
                                         class="card-img"
+                                        alt="寶晶能源 太陽光電 示意圖"
                                     />
                                 </div>
                                 <div class="col-md-7 align-items-center d-flex align-items-stretch justify-content-center">
@@ -63,6 +64,7 @@
                                     <img
                                         src="assets/img/business/wind_energy.jpg"
                                         class="card-img"
+                                        alt="寶晶能源 風力發電 示意圖"
                                     />
                                 </div>
                                 <div class="col-md-7 align-items-center d-flex align-items-stretch justify-content-center">
@@ -99,6 +101,7 @@
                                     <img
                                         src="assets/img/business/Energy_storage.jpg"
                                         class="card-img"
+                                        alt="寶晶能源 儲能電力系統 示意圖"
                                     />
                                 </div>
                                 <div class="col-md-7 align-items-center d-flex align-items-stretch justify-content-center">
@@ -135,6 +138,7 @@
                                     <img
                                         src="assets/img/business/Auction.jpg"
                                         class="card-img"
+                                        alt="寶晶能源 售電服務 示意圖"
                                     />
                                 </div>
                                 <div class="col-md-7 align-items-center d-flex align-items-stretch justify-content-center">
@@ -176,7 +180,8 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/business/fullsize/proj-pingtung_linbian.jpg" title="Project Name">
-                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-pingtung_linbian_thumb.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-pingtung_linbian_thumb.jpg" 
+                                alt="寶晶能源 屏東林邊 地面型 120 MW" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">地面型</div>
                                     <div class="project-name">屏東林邊</div>
@@ -187,7 +192,8 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/business/fullsize/proj-pingtung_funliao.jpg" title="Project Name">
-                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-pingtung_funliao_thumb.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-pingtung_funliao_thumb.jpg" 
+                                alt="寶晶能源 屏東枋寮 地面型 300 MW" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">地面型</div>
                                     <div class="project-name">屏東枋寮</div>
@@ -201,7 +207,8 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/business/fullsize/proj-pingtung_laopi.jpg" title="Project Name">
-                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-pingtung_laopi_thumb.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-pingtung_laopi_thumb.jpg" 
+                                alt="寶晶能源 屏東老埤茶廠 / 宿舍 屋頂型 520 KW" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">屋頂型</div>
                                     <div class="project-name">屏東老埤茶廠 / 宿舍</div>
@@ -212,7 +219,8 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/business/fullsize/proj-taoyuan_jinhong.jpg" title="Project Name">
-                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-taoyuan_jinhong_thumb.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-taoyuan_jinhong_thumb.jpg" 
+                                alt="寶晶能源 桃園大林錦鋐氣密窗廠 屋頂型 950 KW" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">屋頂型</div>
                                     <div class="project-name">桃園大林錦鋐氣密窗廠</div>
@@ -223,7 +231,8 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/business/fullsize/proj-chaiyi_guochan.jpg" title="Project Name">
-                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-chaiyi_guochan_thumb.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-chaiyi_guochan_thumb.jpg"
+                                alt="寶晶能源 嘉義民雄國產實業 屋頂型 950 KW" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">屋頂型</div>
                                     <div class="project-name">嘉義民雄國產實業</div>
@@ -237,7 +246,8 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/business/fullsize/proj-taoyuan_chialongenvtech.jpg" title="Project Name">
-                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-taoyuan_chialongenvtech_thumb.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-taoyuan_chialongenvtech_thumb.jpg" 
+                                alt="寶晶能源 桃園佳龍環科廠 EPC RC屋頂三角立面 250 KW" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">EPC</div>
                                     <div class="project-name">桃園佳龍環科廠</div>
@@ -248,7 +258,8 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/business/fullsize/proj-taoyuan_chialongguanying.jpg" title="Project Name">
-                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-taoyuan_chialongguanying_thumb.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-taoyuan_chialongguanying_thumb.jpg" 
+                                alt="寶晶能源 桃園佳龍觀音廠 EPC 屋頂三角立面 400 KW"/>
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">EPC</div>
                                     <div class="project-name">桃園佳龍觀音廠</div>
@@ -259,7 +270,8 @@
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <a class="portfolio-box" href="assets/img/business/fullsize/proj-taoyuan_changpu.jpg" title="Project Name">
-                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-taoyuan_changpu_thumb.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-taoyuan_changpu_thumb.jpg"
+                                alt="寶晶能源 桃園昌蒲廠 EPC 植筋式地面車棚架 750 KW" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">EPC</div>
                                     <div class="project-name">桃園昌蒲廠</div>
