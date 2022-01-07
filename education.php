@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/qot7dle.css">
         <link rel="stylesheet" href="css/education.css">
         <title>綠電教育 - 寶晶能源股份有限公司 INAEnergy</title>
+        <meta name="description" content="寶晶能源綠電教育平台，內容包括全球暖化、環境汙染、國際綠能政策、能源轉換等議題。">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>

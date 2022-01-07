@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="css/timeline.css">
         <link rel="stylesheet" href="css/timeline2.css">
         <title>關於寶晶 - 寶晶能源股份有限公司 INAEnergy</title>
+        <meta name="description" content="寶晶能源股份有限公司於2018年時由董事長蔡佳晋先生為對抗氣候變遷，以保護地球、永續家園、節能減碳、潔淨能源為己任。
+        其主要股東為國泰永續能源基金，遠雄人壽，與寶佳集團。寶晶能源致力於在台灣各地投資開發綠能設施，以創能（太陽能與風能）、節能與儲能為三大業務主軸。
+        子公司有屏東城市發展電業、寶發能源、寶儲能源...等。">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>

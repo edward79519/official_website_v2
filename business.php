@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="https://use.typekit.net/qot7dle.css">
         <link rel="stylesheet" href="css/business.css">
         <title>主要業務 - 寶晶能源股份有限公司 INAEnergy</title>
+        <meta name="description" content="寶晶能源業務以創能(太陽能、風能...)、儲能、售電(電力交易)為主，
+        目前專案實績有地面型、屋頂型太陽光電案場，以及EPC案場，區域分布在桃園、嘉義、屏東林邊以及枋寮。">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>

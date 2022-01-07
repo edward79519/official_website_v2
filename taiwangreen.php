@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/qot7dle.css">
         <link rel="stylesheet" href="css/taiwangreen.css">
         <title>台灣綠能 - 寶晶能源股份有限公司 INAEnergy</title>
+        <meta name="description" content="寶晶能源，台灣綠能議題，能源與環境計畫、產業概況與策略、次世代環境教育。">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>

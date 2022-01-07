@@ -68,6 +68,7 @@ if (array_key_exists('email', $_POST)) {
         <link rel="stylesheet" href="https://use.typekit.net/qot7dle.css">
         <link rel="stylesheet" href="css/contact.css">
         <title>聯絡我們 - 寶晶能源股份有限公司 INAEnergy</title>
+        <meta name="description" content="寶晶能源，聯繫我們。">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>

@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/qot7dle.css">
         <link rel="stylesheet" href="css/news.css">
         <title>最新消息 - 寶晶能源股份有限公司 INAEnergy</title>
+        
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>
@@ -81,7 +82,7 @@
                                         <div class="news-media mt-3"><a href="https://news.sina.com.tw/">新浪新聞</a></div>
                                         <div class="news-content mt-2">
                                             <div class="news-title-right"><a href="https://news.sina.com.tw/article/20211214/40806972.html">2022基隆馬拉松 帶動環保綠能風潮 </a></div>
-                                            <div class="news-time">2021/112/14</div>
+                                            <div class="news-time">2021/12/14</div>
                                         </div>
                                     </div>
                                     <div class="w-50">
