@@ -3,6 +3,8 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <!-- Favicon-->
+<link rel="shortcut icon" href="assets/favicon.ico"/>
+<link rel="bookmark" href="assets/favicon.ico"/>
 <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
