@@ -54,7 +54,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="investor.php" data-bs-toggle="dropdown">投資人專區</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="investor.php">財務資訊</a></li>
+                                <li><a class="dropdown-item" href="investor.php">營運報告</a></li>
                                 <li><a class="dropdown-item" href="esg.php">ESG</a></li>
                             </ul>
                         </li>

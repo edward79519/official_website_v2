@@ -51,7 +51,7 @@
                         <div class="footer-list-block">
                             <h6>投資人專區</h6>
                                 <ul class="footer-list">
-                                    <li><a href="investor.php">財務資訊</a></li>
+                                    <li><a href="investor.php">營運報告</a></li>
                                     <li><a href="esg.php">ESG</a></li>
                                 </ul>
                         </div>

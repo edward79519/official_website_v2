@@ -399,7 +399,7 @@
                                 <span class="timeline2-icon"></span>
                                 <div class="timeline2-content">
                                     <p class="description py-3 ">
-                                        領銜籌組「中華民國太陽光電產業永續發展協會」，預計明年一月正式成立完成
+                                        領銜籌組「中華民國太陽光電產業永續發展協會」，預計2022年1月正式成立完成
                                     </p>
                                 </div>
                                 <div class="year"><span></span><span class="month">08</span></div>
@@ -408,7 +408,7 @@
                                 <span class="timeline2-icon"></span>
                                 <div class="timeline2-content">
                                     <p class="description py-3 ">
-                                        領銜籌組「中華民國太陽光電產業永續發展協會」，預計明年一月正式成立完成
+                                        成立寶糖能源，專營台糖農電共生案場
                                     </p>
                                 </div>
                                 <div class="year"><span></span><span class="month">10</span></div>

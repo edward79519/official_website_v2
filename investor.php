@@ -15,7 +15,7 @@
             <div class="container text-center px-4 px-lg-5 h-100">  
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">財務資訊</h1>
+                        <h1 class="text-white font-weight-bold">營運報告</h1>
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
