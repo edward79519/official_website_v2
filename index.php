@@ -32,7 +32,7 @@
         <section class="page-section" id="goals">
             <div class="container px-4 px-lg-5">
                 
-                <div class="row gx-4 gx-lg-5 gy-4 vh-100 py-5">
+                <div class="row gx-4 gx-lg-5 gy-4 mvh-100 py-5">
                     <div class="col-12">
                         <h2 class="text-center mt-0">成就指標</h2>
                         <hr class="divider my-5" />
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 
-                <div class="row gx-4 gx-lg-5 gy-4 vh-100 py-5">
+                <div class="row gx-4 gx-lg-5 gy-4 mvh-100 py-5">
                     <div class="col-12">
                         <h2 class="text-center mt-5">目標：屏東 300MW 計畫</h2>
                         <hr class="divider my-5" />
