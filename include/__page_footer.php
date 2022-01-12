@@ -10,7 +10,7 @@
                             <ul class="footer-list">
                                 <li><a href="about.php#team">營運團隊</a></li>
                                 <li><a href="about.php#child">子公司介紹</a></li>
-                                <li><a href="about.php#timeline">發指歷程</a></li>
+                                <li><a href="about.php#timeline">發展歷程</a></li>
                                 <li><a href="about.php#join">加入我們</a></li>
                             </ul>
                         </div>

@@ -99,7 +99,7 @@
                             <div class="row g-0">
                                 <div class="col-md-5 d-flex align-items-stretch">
                                     <img
-                                        src="assets/img/business/Energy_storage.jpg"
+                                        src="assets/img/business/Energy_storage_2.jpg"
                                         class="card-img"
                                         alt="寶晶能源 儲能電力系統 示意圖"
                                     />
