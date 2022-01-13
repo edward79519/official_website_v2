@@ -8,6 +8,13 @@
         <title>寶晶能源股份有限公司 INAEnergy</title>
         <meta name="description" content="寶晶能源股份有限公司，台灣再生能源專業服務，致力於在台灣綠能開發，
         以創能(太陽能，風能...)、儲能與售電為主軸，結合各方專業力量，為對抗全球暖化盡最大努力。">
+        
+        <meta property="og:title" content="寶晶能源股份有限公司 INAEnergy">
+        <meta property="og:description" content="寶晶能源股份有限公司，台灣再生能源專業服務，致力於在台灣綠能開發，
+        以創能(太陽能，風能...)、儲能與售電為主軸，結合各方專業力量，為對抗全球暖化盡最大努力。">
+        <meta property="twitter:title" content="寶晶能源股份有限公司 INAEnergy">
+        <meta property="twitter:description" content="寶晶能源股份有限公司，台灣再生能源專業服務，致力於在台灣綠能開發，
+        以創能(太陽能，風能...)、儲能與售電為主軸，結合各方專業力量，為對抗全球暖化盡最大努力。">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>

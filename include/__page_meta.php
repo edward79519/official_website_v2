@@ -1,13 +1,25 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta name="description" content="" />
-<meta name="author" content="" />
+<meta name="author" content="INA Energy" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.inaenergy.com.tw/">
+<meta property="og:image" content="assets/img/inaenergy_logo_og.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="寶晶能源股份有限公司 INAEnergy">
+<meta property="twitter:image" content="assets/img/inaenergy_logo_og.png">
+
+
 <!-- Favicon-->
 <link rel="shortcut icon" href="assets/favicon.ico"/>
 <link rel="bookmark" href="assets/favicon.ico"/>
 <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+
 <script>
   (function(d) {
     var config = {

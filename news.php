@@ -6,6 +6,11 @@
         <link rel="stylesheet" href="https://use.typekit.net/qot7dle.css">
         <link rel="stylesheet" href="css/news.css">
         <title>最新消息 - 寶晶能源股份有限公司 INAEnergy</title>
+        <meta name="description" content="寶晶能源最新消息。">
+        <meta property="og:title" content="最新消息 - 寶晶能源股份有限公司 INAEnergy">
+        <meta property="og:description" content="寶晶能源最新消息。">
+        <meta property="twitter:title" content="最新消息 - 寶晶能源股份有限公司 INAEnergy">
+        <meta property="twitter:description" content="寶晶能源最新消息。">
         
     </head>
     <body id="page-top">

@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="css/esg.css">
         <title>ESG - 寶晶能源股份有限公司 INAEnergy</title>
         <meta name="description" content="寶晶能源，ESG，環境保護、社會責任、公司治理。">
+
+        <meta property="og:title" content="ESG - 寶晶能源股份有限公司 INAEnergy">
+        <meta property="og:description" content="寶晶能源，ESG，環境保護、社會責任、公司治理。">
+        <meta property="twitter:title" content="ESG - 寶晶能源股份有限公司 INAEnergy">
+        <meta property="twitter:description" content="寶晶能源，ESG，環境保護、社會責任、公司治理。">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>

@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="css/investor.css">
         <title>財務資訊 - 投資人關係 - 寶晶能源股份有限公司 INAEnergy</title>
         <meta name="description" content="寶晶能源投資人專區，簡明月報、財務報表、營運績效。">
+
+        <meta property="og:title" content="財務資訊 - 投資人關係 - 寶晶能源股份有限公司 INAEnergy">
+        <meta property="og:description" content="寶晶能源投資人專區，簡明月報、財務報表、營運績效。">
+        <meta property="twitter:title" content="財務資訊 - 投資人關係 - 寶晶能源股份有限公司 INAEnergy">
+        <meta property="twitter:description" content="寶晶能源投資人專區，簡明月報、財務報表、營運績效。">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>

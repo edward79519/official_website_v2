@@ -26,9 +26,9 @@ if (array_key_exists('email', $_POST)) {
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('edwardhsu@inaenergy.com.tw', 'EdwardHsu');
+    $mail->setFrom('service@inaenergy.com.tw', '寶晶能源官網 - 業務窗口');
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('edwardhsu@inaenergy.com.tw', 'EdwardHsu');
+    $mail->addAddress('sales@inaenergy.com.tw', '寶晶能源官網 - 業務窗口');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
