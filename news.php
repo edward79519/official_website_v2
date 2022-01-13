@@ -180,6 +180,15 @@
                             </div>
                         </div>
                         <div class="news-board flex-fill d-flex">
+                            <div class="news-media-list mt-3"><a href="https://view.ftv.com.tw/">民視異言堂</a></div>
+                            <div class="news-content mt-2">
+                                <div class="news-title-right"><a href="https://view.ftv.com.tw/week.aspx?dd=20211127">
+                                    在惡地種綠金
+                                </a></div>
+                                <div class="news-time">2021/11/27</div>
+                            </div>
+                        </div>
+                        <div class="news-board flex-fill d-flex">
                             <div class="news-media-list mt-3"><a href="https://www.ctrun.com.tw/">全統運動報名網</a></div>
                             <div class="news-content mt-2">
                                 <div class="news-title-right"><a href="https://www.ctrun.com.tw/pageO.aspx?CF_ActCode=CS211016&id=4271">
