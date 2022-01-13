@@ -38,6 +38,7 @@ if (array_key_exists('email', $_POST)) {
         $mail->isHTML(false);
         //Build a simple message body
         $mail->Body = <<<EOT
+        此封郵件是由寶晶能源網頁自動產生，請勿回覆信件至此信箱，感謝您。
         姓名: {$_POST['name']}
         職稱: {$_POST['title']}
         Email: {$_POST['email']}
@@ -69,6 +70,11 @@ if (array_key_exists('email', $_POST)) {
         <link rel="stylesheet" href="css/contact.css">
         <title>聯絡我們 - 寶晶能源股份有限公司 INAEnergy</title>
         <meta name="description" content="寶晶能源，聯繫我們。">
+
+        <meta property="og:title" content="聯絡我們 - 寶晶能源股份有限公司 INAEnergy">
+        <meta property="og:description" content="寶晶能源，聯繫我們。">
+        <meta property="twitter:title" content="聯絡我們 - 寶晶能源股份有限公司 INAEnergy">
+        <meta property="twitter:description" content="寶晶能源，聯繫我們。">
     </head>
     <body id="page-top">
         <?php include __DIR__.'/include/__page_header.php'; ?>
