@@ -37,17 +37,22 @@
                     <div class="col-12 d-flex flex-column flex-lg-row align-items-stretch align-content-stretch">
                         <div class="news-l-col d-flex flex-column">
                             <div class="news-board flex-fill">
-                                <div class="news-media my-3"><a href="https://view.ftv.com.tw/">民視異言堂</a></div>
-                                <div class="news-img"><img src="assets/img/news/break-news.jpg"></div>
+                                <div class="news-media my-3"><a href="https://money.udn.com/money/">經濟日報</a></div>
+                                <div class="news-img"><img src="assets/img/news/20220112_mnyudn.jpg" alt="2022/01/12 TPiSA成立 太陽光電邁向永續展新頁"></div>
                                 <div class="news-content mt-3">
-                                    <div class="news-title"><a href="https://view.ftv.com.tw/week.aspx?dd=20211127">在惡地種綠金</a></div>
-                                    <div class="news-time">2021/11/27</div>
+                                    <div class="news-title"><a href="https://money.udn.com/money/story/11799/6028409">TPiSA成立 太陽光電邁向永續展新頁</a></div>
+                                    <div class="news-time">2022/01/12</div>
                                     <div class="news-text">
-                                        每年11月，又是黑珍珠蓮霧的產季。但其實，在屏東林邊和佳冬，
-                                        有許多過去種植出好吃黑珍珠的農地，因為地層持續嚴重下陷，已
-                                        經過度鹽化而無法再種植，荒廢了好多年，直到近幾年，又長出了
-                                        綠金。原來是因為這些荒廢農地，現在被拿來架設太陽能光電板，
-                                        也就是所謂的種電。... <span><a href="https://view.ftv.com.tw/week.aspx?dd=20211127">read more</a></small>
+                                    <p>由多家大型綠能業者籌組的「太陽光電產業永續發展協會」(簡稱TPiSA)，
+                                    1月11日上午11點正式成立，綠能總舵手行政院副院長沈榮津親臨，能源局
+                                    局長游振偉、標檢局副局長謝翰璋、台電處長陳銘樹，以及太陽能發電系統
+                                    公會理事長蔡宗融、太陽光電產業協會理事長徐秀蘭均齊聚台灣金融研訓院，
+                                    表達祝賀。</p>
+                                    <p>世界各國先後提出「淨零排放」目標，全球即將進入「零碳經濟」新階段，政
+                                    府也積極擴大布局綠能產業。沈榮津表示，使用綠電已成為產業能否繼續存在
+                                    國際供應鏈至關重要的問題，而非成本被貴幾成的問題。故積極推進以未來2年
+                                    太陽光電2.5GW為目標，接著增為2.7GW、3GW。希望顧及台積電等大廠，以及
+                                    每間企業的再生能源需求。... <span class="small"><a href="https://money.udn.com/money/story/11799/6028409">read more</a></span></p>
                                     </div>
                                 </div>
                             </div>
