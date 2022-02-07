@@ -34,16 +34,20 @@
                                 <li><a href="education.php#pollution">環境汙染</a></li>
                                 <li><a href="education.php#international">國際能源政策</a></li>
                                 <li><a href="education.php#transformation">能源轉換</a></li>
+                                <li><a href="taiwangreen.php">台灣綠能</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
-                            <h6>台灣綠能</h6>
+                            <h6>售電平台</h6>
                             <ul class="footer-list">
-                                <li><a href="taiwangreen.php#pagetop">能源與環境計畫</a></li>
-                                <li><a href="taiwangreen.php#stratagy">產業概況與策略</a></li>
-                                <li><a href="taiwangreen.php#nextgenedu">次世代環境教育</a></li>
+                                <li><a href="">用電試算</a></li>
+                                <li><a href="">個人用戶</a></li>
+                                <li><a href="">企業用戶</a></li>
+                                <li><a href="">申辦流程</a></li>
+                                <li><a href="">需求整合</a></li>
+                                <li><a href="">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
@@ -65,14 +69,20 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 order-md-first">
-                <div class="footer-title py-3 my-3">
+                <div class="footer-title py-3 my-2">
                     <h3>寶晶能源</h3>
                     <h4>Ina Energy Corp.</h4>
                 </div>
-                <div class="footer-text py-3 mt-5">
-                    <p>
-                        114 台北市內湖區行善路463號8樓<br/>
-                        Tel: 02-2796-1122
+                <div class="footer-text py-3 mt-1">
+                    <p> 
+                        台北總公司<br/>
+                        Tel: 02-2796-1122<br/>
+                        114 台北市內湖區行善路463號8樓
+                    </p>
+                    <p> 
+                        屏東辦公室<br/>
+                        Tel: 08-8338-605<br/>
+                        928006 屏東縣東港鎮共和街99-1號
                     </p>
                 </div>
             </div>

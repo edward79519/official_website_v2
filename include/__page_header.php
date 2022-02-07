@@ -33,24 +33,20 @@
                                 <li><a class="dropdown-item" href="education.php#pollution">環境汙染</a></li>
                                 <li><a class="dropdown-item" href="education.php#international">國際能源政策</a></li>
                                 <li><a class="dropdown-item" href="education.php#transformation">能源轉換</a></li>
+                                <li><a class="dropdown-item" href="taiwangreen.php">台灣綠能</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="taiwangreen.php" data-bs-toggle="dropdown">台灣綠能</a>
+                            <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">售電平台</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="taiwangreen.php#pagetop">能源與環境計畫</a></li>
-                                <li><a class="dropdown-item" href="taiwangreen.php#stratagy">產業概況與策略</a></li>
-                                <li><a class="dropdown-item" href="taiwangreen.php#nextgenedu">次世代環境教育</a></li>
+                                <li><a class="dropdown-item" href="">用電試算</a></li>
+                                <li><a class="dropdown-item" href="">個人用戶</a></li>
+                                <li><a class="dropdown-item" href="">企業用戶</a></li>
+                                <li><a class="dropdown-item" href="">申辦流程</a></li>
+                                <li><a class="dropdown-item" href="">需求整合</a></li>
+                                <li><a class="dropdown-item" href="">FAQ</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="esg.php" data-bs-toggle="dropdown">ESG</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="esg.php#pagetop">公司治理</a></li>
-                                <li><a class="dropdown-item" href="esg.php#esgmv">永續經營</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="investor.php">投資人專區</a></li> -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="investor.php" data-bs-toggle="dropdown">投資人專區</a>
                             <ul class="dropdown-menu">

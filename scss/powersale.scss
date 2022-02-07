@@ -1,0 +1,139 @@
+$ina_orange: #FF8000;
+$ina_orange_2: #DE700B;
+$ina_orange_3: #BD5F16;
+$ina_orange_4: #9C4E21;
+$ina_gray: #666666;
+$ina_text_dark: #333333;
+
+
+#pagetop {
+    p {
+        font-size: 15px;
+    }
+
+    @media (min-width: 768px) {
+        p {
+            font-size: 25px;
+        }
+    }
+}
+
+header.masthead {
+    background: linear-gradient(to bottom, rgba(66, 92, 68, 0.1) 0%, rgba(66, 92, 68, 0.5) 100%), url("../assets/img/powersale/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.calcard {
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 2rem 0 2rem 0;
+    min-height: 30vh;
+    label {
+        font-weight: 700;
+    }
+    .calcard-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        @media (min-width: 992px) {
+            justify-content: left;
+        }
+        .calcard-list-num{
+            font-family: 'Cabin', sans-serif;
+            color: $ina_orange;
+            opacity: 0.4;
+            font-size: 15vh;
+            line-height: 15vh;
+            z-index: 1;
+            overflow-y: hidden;
+            @media (min-width: 992px) {
+                font-size: 30vh;
+                line-height: 30vh;
+                width: 100%;
+            }
+        }
+        .calcard-list-text{
+            position: relative;
+            font-weight: 700;
+            font-size: 2rem;
+            z-index: 2;
+            @media (min-width: 992px) {
+                position: absolute;
+                left: 35%;
+                font-weight: 700;
+                width: 7rem;
+                font-size: 3.5rem;
+            }
+        }
+    }
+    .calcard-img {
+        img {
+            object-fit: cover;
+            height: auto;
+            width: auto;
+            max-width: 50%;
+            max-height: 100%;
+            @media (min-width: 768px) {
+                object-fit: cover;
+                height: auto;
+                width: auto;
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+    .calcard-text {
+        font-size: 1.2rem;
+    }
+    span {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+}
+
+#scndcard, #thrdcard {
+    display: none;
+}
+
+.prnt_rltv {
+    position: relative;
+}
+
+#card-1-img {
+    img {
+        width: 20%;
+    }
+}
+
+
+#card-1-dialog {
+    h4{
+        font-weight: 700;
+    }
+    .text-cont{
+        width: 80%;
+        padding: 5%;
+        right: 5%;
+        top: 5%;
+        border-radius: .4em;
+        box-shadow: 5px 5px 20px 2px rgba(196, 196, 196, 0.30);
+    }
+    // .text-cont::after{
+    //     content: '';
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 50%;
+    //     width: 0;
+    //     height: 0;
+    //     border: 38px solid transparent;
+    //     border-top-color: white;
+    //     border-bottom: 0;
+    //     border-left: 0;
+    //     margin-left: -19px;
+    //     margin-bottom: -38px;
+    //     box-shadow: 5px 5px 20px 2px rgba(196, 196, 196, 0.30);
+    // }
+}
