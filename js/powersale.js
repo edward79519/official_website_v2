@@ -23,4 +23,15 @@ $(document).ready(function () {
         $("#scndcard, #thrdcard").fadeOut(0);
         $('html,body').animate({scrollTop:$('#fstcard').offset().top -100},0);
     });
+    
+    
+    $("button[data-toggle='collapse']").on('click',function(){
+        if ($(this).hasClass("collapsed")){
+            $(this).find("i").removeClass("bi-chevron-down");
+            $(this).find("i").addClass("bi-chevron-up");            
+        }else{
+            $(this).find("i").removeClass("bi-chevron-up");
+            $(this).find("i").addClass("bi-chevron-down");
+        }
+    });
 });

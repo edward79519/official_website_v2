@@ -1,3 +1,7 @@
+h2 {
+  font-weight: 700;
+}
+
 #pagetop p {
   font-size: 15px;
 }
@@ -120,8 +124,23 @@ header.masthead {
   position: relative;
 }
 
+#card-1-img {
+  position: absolute;
+  float: left;
+  width: 150px;
+}
+
 #card-1-img img {
-  width: 20%;
+  width: 100%;
+  /* or any custom size */
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#card-1-dialog {
+  float: right;
+  width: calc(100% - 170px);
 }
 
 #card-1-dialog h4 {
@@ -129,12 +148,340 @@ header.masthead {
 }
 
 #card-1-dialog .text-cont {
-  width: 80%;
   padding: 5%;
   right: 5%;
   top: 5%;
-  border-radius: .4em;
+  border: solid rgba(88, 88, 88, 0.9);
+  border-radius: 1em;
   -webkit-box-shadow: 5px 5px 20px 2px rgba(196, 196, 196, 0.3);
           box-shadow: 5px 5px 20px 2px rgba(196, 196, 196, 0.3);
+}
+
+.arrow-xl {
+  font-size: 2rem;
+}
+
+.arrow-shadow {
+  text-shadow: 0 0.6rem;
+}
+
+@media (min-width: 768px) {
+  .arrow-shadow {
+    text-shadow: 0.6rem 0;
+  }
+}
+
+#process .card {
+  border: none;
+  position: relative;
+  border-radius: 1rem;
+  background: #ffbc96;
+  z-index: 2;
+}
+
+#process .card a {
+  color: black;
+}
+
+#process .card .card-body .card-title {
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  #process .card {
+    height: 9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #process .card {
+    height: 10rem;
+  }
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  top: -0.7rem;
+  left: -0.5rem;
+  border: 0.3rem solid #46464d;
+  border-radius: 1rem;
+  background: none;
+  z-index: -1;
+}
+
+.page-section {
+  padding: 5rem 0;
+}
+
+.psn-pic {
+  margin: 0 atuo;
+  width: 20vw;
+  height: 200px;
+}
+
+.psn-pic-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#psn-pic-left {
+  background: url("../assets/img/powersale/house.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 99;
+}
+
+#psn-pic-right {
+  background: url("../assets/img/powersale/house_with_pvs.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 99;
+}
+
+.psn-img img {
+  width: 100%;
+  /* or any custom size */
+  height: 100%;
+  max-width: 40vw;
+  max-height: 40vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.psn-text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  .psn-text p {
+    font-size: 1.3rem;
+  }
+}
+
+.psn-text span {
+  color: green;
+}
+
+.card-diag {
+  height: auto;
+  position: absolute;
+  left: 100px;
+}
+
+@media (min-width: 768px) {
+  .card-diag {
+    left: initial;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card-diag {
+    left: 100px;
+  }
+}
+
+.card-dialog-body {
+  position: relative;
+}
+
+.card-dialog-body::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: url("../assets/img/powersale/ina-bear.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img-fit img {
+  width: 80%;
+  /* or any custom size */
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.card2 {
+  border: none;
+  position: absolute;
+  z-index: 2;
+  left: 100px;
+  height: 100px;
+  width: 160px;
+  background: url("../assets/img/powersale/dialog.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0.7rem 0.9rem 0.3rem 0.9rem;
+}
+
+.card2 .card-body {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  margin: 0.1rem 0rem 0.5rem 0rem;
+}
+
+.card2 .card-body .card-title {
+  margin: 0.1rem 0rem 0.5rem 0rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .card2 {
+    height: 100px;
+    width: 160px;
+    padding: 0.7rem 0.9rem 0.3rem 0.9rem;
+  }
+  .card2 .card-body {
+    margin: 0.1rem 0rem 0.5rem 0rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card2 {
+    height: 100px;
+    width: 160px;
+    padding: 0.7rem 0.9rem 0.3rem 0.9rem;
+  }
+  .card2 .card-body {
+    margin: 0.1rem 0rem 0.5rem 0rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card2 {
+    height: 100px;
+    padding: 0.7rem 0.9rem 0.3rem 0.9rem;
+  }
+  .card2 .card-body {
+    margin: 0.1rem 0rem 0.5rem 0rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card2 {
+    height: 100px;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+  }
+  .card2 .card-body {
+    margin: 0.1rem 1rem 0.5rem 1rem;
+  }
+}
+
+.card2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -0.4rem;
+  top: -0.4rem;
+  background: url("../assets/img/powersale/dialog_border.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.ellipses {
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 1rem 2rem;
+  background: #ffbc96;
+  border-radius: 50% / 50%;
+}
+
+.ellipses h4 {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .ellipses {
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.ellipses::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -0.5rem;
+  top: -0.5rem;
+  border: 0.3rem solid #46464d;
+  background: none;
+  border-radius: 50% / 50%;
+  z-index: 2;
+}
+
+.arrow-shadow-x {
+  text-shadow: 0.6rem 0;
+}
+
+.rotate-45 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.rotate-r-45 {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+@media (min-width: 768px) {
+  .rotate-r-45 {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+}
+
+.pic-desc {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.2rem auto;
+}
+
+#faq .card {
+  -webkit-box-shadow: 2px 2px 5px 1px lightgray;
+          box-shadow: 2px 2px 5px 1px lightgray;
+  border: white;
+}
+
+#faq .card .card-header {
+  padding: 1rem 1.5rem;
+}
+
+#faq .card .card-header .card-icon {
+  float: right;
+}
+
+#faq .card .card-header .btn {
+  display: contents;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+#faq .card .card-header .btn-link {
+  text-decoration: none;
 }
 /*# sourceMappingURL=powersale.css.map */
