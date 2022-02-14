@@ -35,7 +35,7 @@
                 </div>
             </div>
         </header>
-        <section class="page-section" id="esg">
+        <section class="page-section" id="calculator">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">

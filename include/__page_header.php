@@ -37,14 +37,13 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">售電平台</a>
+                            <a class="nav-link dropdown-toggle" href="powersale.php" data-bs-toggle="dropdown">售電平台</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="">用電試算</a></li>
-                                <li><a class="dropdown-item" href="">個人用戶</a></li>
-                                <li><a class="dropdown-item" href="">企業用戶</a></li>
-                                <li><a class="dropdown-item" href="">申辦流程</a></li>
-                                <li><a class="dropdown-item" href="">需求整合</a></li>
-                                <li><a class="dropdown-item" href="">FAQ</a></li>
+                                <li><a class="dropdown-item" href="powersale.php">用電試算</a></li>
+                                <li><a class="dropdown-item" href="powersale.php#personal">個人用戶</a></li>
+                                <li><a class="dropdown-item" href="powersale.php#enterprised">企業用戶</a></li>
+                                <li><a class="dropdown-item" href="powersale.php#process">申辦流程</a></li>
+                                <li><a class="dropdown-item" href="powersale.php#faq">FAQ</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">

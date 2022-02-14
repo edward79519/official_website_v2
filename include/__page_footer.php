@@ -42,12 +42,11 @@
                         <div class="footer-list-block">
                             <h6>售電平台</h6>
                             <ul class="footer-list">
-                                <li><a href="">用電試算</a></li>
-                                <li><a href="">個人用戶</a></li>
-                                <li><a href="">企業用戶</a></li>
-                                <li><a href="">申辦流程</a></li>
-                                <li><a href="">需求整合</a></li>
-                                <li><a href="">FAQ</a></li>
+                                <li><a href="powersale.php">用電試算</a></li>
+                                <li><a href="powersale.php#personal">個人用戶</a></li>
+                                <li><a href="powersale.php#enterprised">企業用戶</a></li>
+                                <li><a href="powersale.php#process">申辦流程</a></li>
+                                <li><a href="powersale.php#faq">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
