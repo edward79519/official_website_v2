@@ -26,7 +26,7 @@ if (array_key_exists('email', $_POST)) {
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('service@inaenergy.com.tw', '寶晶能源官網 - 業務窗口');
+    $mail->setFrom('service@inaenergy.com.tw', '寶晶能源官網系統訊息');
     //Send the message to yourself, or whoever should receive contact for submissions
     $mail->addAddress('sales@inaenergy.com.tw', '寶晶能源官網 - 業務窗口');
     //Put the submitter's address in a reply-to header
@@ -39,6 +39,7 @@ if (array_key_exists('email', $_POST)) {
         //Build a simple message body
         $mail->Body = <<<EOT
         此封郵件是由寶晶能源網頁自動產生，請勿回覆信件至此信箱，感謝您。
+        單位: {$_POST['unit']}
         姓名: {$_POST['name']}
         職稱: {$_POST['title']}
         Email: {$_POST['email']}
@@ -124,6 +125,10 @@ if (array_key_exists('email', $_POST)) {
                                             } ?>
                                         </div>
                                     </div>
+                                    <div class="form-group col-lg-12 mb-3">
+                                        <label for="unit"> 公司／團體／單位名稱 *</label>
+                                        <input type="text" class="form-control" name="unit" id="unit" placeholder="單位名稱 （若為個人請填「個人」）" required>
+                                    </div>
                                     <div class="form-group col-lg-6 mb-3">
                                         <label for="name">姓名 Name *</label>
                                         <input type="text" class="form-control" name="name" id="name" placeholder="姓名" required>
@@ -133,7 +138,7 @@ if (array_key_exists('email', $_POST)) {
                                         <input type="text" class="form-control" name="title" id="title" placeholder="職稱" required>
                                     </div>
                                     <div class="form-group col-12 mb-3">
-                                        <label for="email">Email</label>
+                                        <label for="email">Email *</label>
                                         <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                                     </div>
                                     <div class="form-group col-12 mb-3">
@@ -142,7 +147,7 @@ if (array_key_exists('email', $_POST)) {
                                     </div>
                                     <div class="form-group col-12 mb-3">
                                         <label for="message">給我們的訊息 Message *</label>
-                                        <textarea rows="7" type="text" class="form-control" name="message" id="message" placeholder="寫些東西...." required></textarea>
+                                        <textarea rows="7" type="text" class="form-control" name="message" id="message" placeholder="我是　個人/企業（公司名稱：_________) &#13;&#10;我對購買綠電有興趣，請您與我聯繫。" required></textarea>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn bg-primary text-white my-2 shadow">送出</button>
