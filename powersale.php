@@ -25,7 +25,7 @@
             <div class="container text-center px-4 px-lg-5 h-100">  
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-white font-weight-bold">售電平台</h1>
+                        <h1 class="text-white font-weight-bold">售電業務</h1>
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
@@ -83,8 +83,9 @@
                                         <label for="" class="col-sm-4 col-form-label">用電類別</label>
                                         <div class="col-sm-8">
                                             <select class="form-select" name="calchar">
-                                                <option value="personal" selected>個人</option>
-                                                <option value="commercial">商業</option>
+                                                <option value="T" selected>個人</option>
+                                                <option value="K">商辦</option>
+                                                <option value="C">工廠</option>
                                             </select>
                                         </div>
                                     </div>
@@ -121,7 +122,7 @@
                                     <div class="form-group row my-3">
                                         <label for="" class="col-sm-4 col-form-label">用電月份</label>
                                         <div class="col-sm-8">
-                                            <select class="form-select" name="calmon">
+                                            <select class="form-select" name="calmon" id="calmon">
                                                 <option value="" selected>請選擇</option>
                                                 <option value="1">一月</option>
                                                 <option value="2">二月</option>
@@ -146,7 +147,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row my-3">
-                                        <label for="" class="col-sm-4 col-form-label">希望購買率電比例</label>
+                                        <label for="" class="col-sm-4 col-form-label">希望購買綠電比例</label>
                                         <div class="col-sm-8">
                                             <select class="form-select" name="rate">
                                                 <option selected>請選擇</option>
@@ -312,7 +313,7 @@
                                     <img width="100px" src="./assets/img/powersale/renew_mark.png">
                                 </div>
                                 <div class="col-md-10 col-sm-9">
-                                    改變住家處的用電結構，可以從使用潔淨能源開始。搭配智慧電錶，即時了解用電狀況，搭配未來即將實施的時間電價，規劃最好的用電方案，愛地球的同時不需要支付額外成本。
+                                    <span class=" text-decoration-underline">改變住家處的用電結構，可以從使用潔淨能源開始</span>。搭配台電智慧電錶，即時了解用電情況。一般住宅月用電 700 度以上的用戶即適合選擇申請時間電價——愛地球的同時不需要支付額外成本。
                                 </div>
                             </div>
                         </div>
@@ -324,7 +325,7 @@
                                     <img width="100px" src="./assets/img/powersale/electricity_meter.png">
                                 </div>
                                 <div class="col-md-10 col-sm-9">
-                                    個人用戶換裝智慧電表，搭配「台灣電力APP」，每六個小時就能結算一次電費，可顯示每15分鐘的用電量，讓民眾即時了解家裡的用電狀況。台電也可即時偵測停電，也可遠端進行停、復電的作業。(註: 因智慧電錶的安裝現未開放用戶臨櫃申請，惟用戶如申請時間電價方案或住家有設置再生能源併網或設置家庭能源管理系統時，台電公司將會主動換裝智慧電表。)
+                                    個人用戶換裝智慧電表，搭配台灣電力APP，可顯示每15分鐘的用電量，更可每6個小時結算一次電費 。智慧電表的安裝現未開放所有用戶臨櫃申請，但若用戶申請<span class=" text-decoration-underline">時間電價方案</span>、<span class=" text-decoration-underline">使用再生能源</span>或<span class=" text-decoration-underline">設置家庭能源管理系統</span>時，台電公司將主動換裝智慧電表。
                                 </div>
                             </div>
                         </div>
@@ -348,11 +349,11 @@
                                     <div class="col-md-10">
                                         <div class="img-fit">
                                             <img src="./assets/img/powersale/fans.png">
-                                            <div class="pic-desc">發電業者</div>
+                                            <div class="pic-desc">INA 發電業</div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2 d-flex align-items-center justify-content-center text-primary arrow-xl rotate-45">
-                                        <i class="bi bi-caret-right-fill arrow-shadow-x"></i>
+                                    <div class="col-md-2 d-flex align-items-center justify-content-center text-primary arrow-xxl rotate-45">
+                                        <i class="bi bi-caret-right-fill arrow-shadow-x-xxl"></i>
                                     </div>
                                 </div>
                             </div>
@@ -360,30 +361,34 @@
                                 <div class="row text-center">
                                     <div class="col-md-10">
                                         <div class="img-fit">
-                                            <img src="./assets/img/powersale/environmental_values.png">
-                                            <div class="pic-desc">環境價值</div>
+                                            <img src="./assets/img/powersale/retailing .png">
+                                            <div class="pic-desc">INA 售電業</div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2 d-flex align-items-center justify-content-center text-primary arrow-xl rotate-r-45">
-                                        <i class="bi bi-caret-right-fill arrow-shadow-x"></i>
+                                    <div class="col-md-2 d-flex align-items-center justify-content-center text-primary arrow-xxl rotate-r-45">
+                                        <i class="bi bi-caret-right-fill arrow-shadow-x-xxl"></i>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 align-self-center">
-                        <div class="row text-center">
-                            <div class="col-md-10">
-                                <div class="prnt_rltv">
+                        <div class="row text-center justify-content-center">
+                            <div class="col-6 col-md-10">
+                                <!-- <div class="prnt_rltv">
                                     <div class="ellipses text-center shadow">
                                         <h4>售電業者</h4>
                                         <p>具售電執照的事業主體</p>
                                     </div>
+                                </div> -->
+                                <div class="img-fit">
+                                    <img src="./assets/img/powersale/environmental_values.png">
+                                    <div class="pic-desc">環境價值</div>
                                 </div>
                             </div>
-                            <div class="col-md-2 d-flex align-items-center justify-content-center text-primary arrow-xl">
-                                <i class="bi bi-caret-right-fill arrow-shadow d-none d-md-block"></i>
-                                <i class="bi bi-caret-down-fill arrow-shadow d-block d-md-none"></i>
+                            <div class="col-md-2 d-flex align-items-center justify-content-center text-primary arrow-xxl">
+                                <i class="bi bi-caret-right-fill arrow-shadow-xxl d-none d-md-block"></i>
+                                <i class="bi bi-caret-down-fill arrow-shadow-xxl d-block d-md-none"></i>
                             </div>
                         </div>
                     </div>
@@ -400,13 +405,13 @@
                 </div>
                 <div class="row gy-3 justify-content-center">
                     <div class="col-xl-10">
-                        <div class="shadow">
-                            <div class="row py-3 px-3 d-flex align-items-center">
+                        <div class="shadow mb-3">
+                            <div class="row py-3 px-3 d-flex align-items-center mb-3">
                                 <div class="col-md-2 col-sm-3 text-center">
                                     <img width="100px" src="./assets/img/powersale/re100.png">
                                 </div>
                                 <div class="col-md-10 col-sm-9">
-                                    <p>國際永續趨勢：2050 年 100% 使用綠電，呼籲企業即早響應：</p>
+                                    <p class="fw-bold">國際永續趨勢：2050 年 100% 使用綠電，呼籲企業即早響應：</p>
                                     <ul>
                                         <li>用電大戶條款：契約容量 5,000kW 以上用戶，必須在 5 年內設置契約容量 10% 的再生能源。</li>
                                         <li>RE100：加入成員必須公開承諾 2020 至 2050 年間達成 100% 使用綠電的時程。</li>
@@ -415,23 +420,36 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="row gx-4 gx-lg-5 mt-5">
+                            <div class="col-12 col-md-8 col-lg-7 text-center mb-3 prnt_rltv align-self-center">
+                                <div id="card-1-img">
+                                    <img src="./assets/img/powersale/ina-bear.png">
+                                </div>
+                                <div id="card-1-dialog">
+                                    <div class="text-cont text-start">
+                                        <p class="fw-bold">若您欲履行用電大戶條款、亦或是逐步達成RE100的目標，您可以這麼做! </h4>
+                                        <p class="text-end mb-0">註: 設置儲能設備尚無法滿足 RE100</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row pt-3 gx-3 gy-3 text-center my-5">
                             <div class="col-md-4">
                                 <div class="d-flex flex-column justify-content-center align-items-center">
                                     <img width="200px" src="./assets/img/powersale/retailing .png">
-                                    <h4 class="fw-bold mt-3">購買再生能源電力</h4>
+                                    <h4 class="fw-bold mt-3"><a href="#process" class="text-black text-decoration-none">購買再生能源電力或憑證</a></h4>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="d-flex flex-column justify-content-center align-items-center">
                                     <img width="200px" src="./assets/img/powersale/fans.png">
-                                    <h4 class="fw-bold mt-3">設置再生能源發電設備</h4>
+                                    <h4 class="fw-bold mt-3"><a href="business.php#harvesting" class="text-black text-decoration-none">設置再生能源發電設備</a></h4>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="d-flex flex-column justify-content-center align-items-center">
                                     <img width="200px" src="./assets/img/powersale/energy_storage.png">
-                                    <h4 class="fw-bold mt-3">設置儲能設備</h4>
+                                    <h4 class="fw-bold mt-3"><a href="business.php#storage" class="text-black text-decoration-none">設置儲能設備</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -452,7 +470,7 @@
                         <div class="card shadow">
                             <div class="card-body">
                                 <h5 class="card-title">用戶聯繫提出需求</h5>
-                                <p class="card-text"><a href="contact.php">聯繫寶晶</a>，我們將依用戶狀況做初步評估。</p>
+                                <p class="card-text"><a href="contact.php">聯繫寶晶</a>，我們將依用戶不同的用電狀況做初步評估。</p>
                             </div>
                         </div>
                     </div>
@@ -479,6 +497,7 @@
                         <div class="card shadow">
                             <div class="card-body">
                                 <h5 class="card-title">雙方簽訂購售電合約 PPA</h5>
+                                <p class="card-text">寶晶向台電提交綠電購電契約轉供計畫書。</p>
                             </div>
                         </div>
                     </div>
@@ -490,7 +509,7 @@
                         <div class="card shadow">
                             <div class="card-body">
                                 <h5 class="card-title">智慧電錶的安裝</h5>
-                                <p class="card-text">台電前往安裝智慧電錶；寶晶前往安裝智慧電錶 （根據前期討論需求與合約內容）</p>
+                                <p class="card-text">台電前往安裝智慧電錶；寶晶根據前期討論需求與合約內容進行前期配置工作。</p>
                             </div>
                         </div>
                     </div>

@@ -153,11 +153,19 @@ header.masthead {
 .arrow-xl {
     font-size: 2rem;
 }
-
+.arrow-xxl {
+    font-size: 3rem;
+}
 .arrow-shadow {
     text-shadow: 0 0.6rem;
     @media (min-width: 768px) {
         text-shadow: 0.6rem 0;
+    }
+}
+.arrow-shadow-xxl {
+    text-shadow: 0 0.8rem;
+    @media (min-width: 768px) {
+        text-shadow: 0.8rem 0;
     }
 }
 #process {
@@ -402,7 +410,9 @@ header.masthead {
 .arrow-shadow-x {
     text-shadow: 0.6rem 0;
 }
-
+.arrow-shadow-x-xxl {
+    text-shadow: 0.8rem 0;
+}
 .rotate-45 {
     transform: rotate(45deg);
 }

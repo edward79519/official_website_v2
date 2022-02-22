@@ -1,7 +1,27 @@
+var mon_const = {
+    '1': 1.85,
+    '2': 1,
+    '3': 2.38,
+    '4': 2.32,
+    '5': 3.35,
+    '6': 3.14,
+    '7': 3.82,
+    '8': 4.11,
+    '9': 4.16,
+    '10': 4.09,
+    '11': 2.84,
+    '12': 2.53,
+};
+
 $(document).ready(function () {
     $('#nextbtn').on('click', function(){
         var cost = $('#powercost').val();
-        $("input[id^='input']").val(cost);
+        var calmon = $('#calmon').val();
+        var rate = cost / mon_const[calmon];
+        // $("input[id^='input']").val(cost * mon_const[calmon]);
+        $("input[id^='input']").each(function(index){
+            $(this).val(Math.round(mon_const[index + 1] * rate * 10) / 10);
+        });
         $("#scndcard").fadeIn("slow");
         $('html,body').animate({scrollTop:$('#scndcard').offset().top -100},0);
     });

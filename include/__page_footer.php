@@ -40,9 +40,9 @@
                     </div>
                     <div class="col-6 col-lg-3">
                         <div class="footer-list-block">
-                            <h6>售電平台</h6>
+                            <h6>售電業務</h6>
                             <ul class="footer-list">
-                                <li><a href="powersale.php">用電試算</a></li>
+                                <li><a href="powersale.php#calculator">用電試算</a></li>
                                 <li><a href="powersale.php#personal">個人用戶</a></li>
                                 <li><a href="powersale.php#enterprised">企業用戶</a></li>
                                 <li><a href="powersale.php#process">申辦流程</a></li>
