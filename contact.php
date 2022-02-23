@@ -92,7 +92,7 @@ if (array_key_exists('email', $_POST)) {
                 </div>
             </div>
         </header>
-        <section class="page-section" id="globalwarm">
+        <section class="page-section" id="contactform">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center d-flex align-items-stretch">
                     <div class="col-md-6 order-md-first">

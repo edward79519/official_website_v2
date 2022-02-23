@@ -452,3 +452,15 @@ header.masthead {
         }
     }
 }
+
+.text-link {
+    color: black;
+    text-decoration: none;
+}
+.text-link:hover {
+    color: $ina_orange_2;
+}
+
+.fit-cnt {
+    min-height: 250px;
+}

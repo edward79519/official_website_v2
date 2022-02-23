@@ -1,26 +1,60 @@
 var mon_const = {
-    '1': 1.85,
-    '2': 1,
-    '3': 2.38,
-    '4': 2.32,
-    '5': 3.35,
-    '6': 3.14,
-    '7': 3.82,
-    '8': 4.11,
-    '9': 4.16,
-    '10': 4.09,
-    '11': 2.84,
-    '12': 2.53,
+    'T': {
+        '1': 1.85,
+        '2': 1,
+        '3': 2.38,
+        '4': 2.32,
+        '5': 3.35,
+        '6': 3.14,
+        '7': 3.82,
+        '8': 4.11,
+        '9': 4.16,
+        '10': 4.09,
+        '11': 2.84,
+        '12': 2.53,
+    },
+    'C': {
+        '1': 1.97,
+        '2': 0.6,
+        '3': 2.88,
+        '4': 2.54,
+        '5': 3.64,
+        '6': 3.31,
+        '7': 4,
+        '8': 3.89,
+        '9': 3.45,
+        '10': 3.75,
+        '11': 2.93,
+        '12': 3.03,
+    },
+    'K': {
+        '1': 1.82,
+        '2': 1.14,
+        '3': 2.26,
+        '4': 2.22,
+        '5': 3.33,
+        '6': 3.49,
+        '7': 4.02,
+        '8': 4.25,
+        '9': 4.31,
+        '10': 3.82,
+        '11': 2.72,
+        '12': 2.23,
+    },
 };
 
 $(document).ready(function () {
     $('#nextbtn').on('click', function(){
         var cost = $('#powercost').val();
+        var usrtype = $('#usrtype').val();
         var calmon = $('#calmon').val();
-        var rate = cost / mon_const[calmon];
+        var type_const = mon_const[usrtype];
+        var rate = cost / type_const[calmon];
         // $("input[id^='input']").val(cost * mon_const[calmon]);
+        
+        console.log(type_const);
         $("input[id^='input']").each(function(index){
-            $(this).val(Math.round(mon_const[index + 1] * rate * 10) / 10);
+            $(this).val(Math.round(type_const[index + 1] * rate ));
         });
         $("#scndcard").fadeIn("slow");
         $('html,body').animate({scrollTop:$('#scndcard').offset().top -100},0);

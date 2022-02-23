@@ -82,7 +82,7 @@
                                     <div class="form-group row my-3">
                                         <label for="" class="col-sm-4 col-form-label">用電類別</label>
                                         <div class="col-sm-8">
-                                            <select class="form-select" name="calchar">
+                                            <select class="form-select" name="calchar" id="usrtype">
                                                 <option value="T" selected>個人</option>
                                                 <option value="K">商辦</option>
                                                 <option value="C">工廠</option>
@@ -313,7 +313,7 @@
                                     <img width="100px" src="./assets/img/powersale/renew_mark.png">
                                 </div>
                                 <div class="col-md-10 col-sm-9">
-                                    <span class=" text-decoration-underline">改變住家處的用電結構，可以從使用潔淨能源開始</span>。搭配台電智慧電錶，即時了解用電情況。一般住宅月用電 700 度以上的用戶即適合選擇申請時間電價——愛地球的同時不需要支付額外成本。
+                                    改變住家處的用電結構，可以從使用潔淨能源開始。搭配台電智慧電錶，即時了解用電情況。一般住宅月用電 700 度以上的用戶即適合選擇申請時間電價——愛地球的同時不需要支付額外成本。
                                 </div>
                             </div>
                         </div>
@@ -325,7 +325,7 @@
                                     <img width="100px" src="./assets/img/powersale/electricity_meter.png">
                                 </div>
                                 <div class="col-md-10 col-sm-9">
-                                    個人用戶換裝智慧電表，搭配台灣電力APP，可顯示每15分鐘的用電量，更可每6個小時結算一次電費 。智慧電表的安裝現未開放所有用戶臨櫃申請，但若用戶申請<span class=" text-decoration-underline">時間電價方案</span>、<span class=" text-decoration-underline">使用再生能源</span>或<span class=" text-decoration-underline">設置家庭能源管理系統</span>時，台電公司將主動換裝智慧電表。
+                                    個人用戶換裝智慧電表，搭配台灣電力APP，可顯示每15分鐘的用電量，更可每6個小時結算一次電費 。智慧電表的安裝現未開放所有用戶臨櫃申請，但若用戶申請時間電價方案、使用再生能源或設置家庭能源管理系統時，台電公司將主動換裝智慧電表。
                                 </div>
                             </div>
                         </div>
@@ -420,8 +420,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row gx-4 gx-lg-5 mt-5">
-                            <div class="col-12 col-md-8 col-lg-7 text-center mb-3 prnt_rltv align-self-center">
+                        <div class="row gx-4 gx-lg-5 my-5">
+                            <div class="col-12 col-md-8 col-lg-7 text-center mb-. prnt_rltv align-self-center fit-cnt">
                                 <div id="card-1-img">
                                     <img src="./assets/img/powersale/ina-bear.png">
                                 </div>
@@ -436,21 +436,20 @@
                         <div class="row pt-3 gx-3 gy-3 text-center my-5">
                             <div class="col-md-4">
                                 <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img width="200px" src="./assets/img/powersale/retailing .png">
-                                    <h4 class="fw-bold mt-3"><a href="#process" class="text-black text-decoration-none">購買再生能源電力或憑證</a></h4>
+                                    <img width="200px" src="./assets/img/powersale/retailing_2.png">
+                                    <h4 class="fw-bold mt-3"><a href="#process" class="text-link">購買再生能源電力或憑證</a></h4>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img width="200px" src="./assets/img/powersale/fans.png">
-                                    <h4 class="fw-bold mt-3"><a href="business.php#harvesting" class="text-black text-decoration-none">設置再生能源發電設備</a></h4>
+                                    <img width="200px" src="./assets/img/powersale/fans_2.png">
+                                    <h4 class="fw-bold mt-3"><a href="business.php#harvesting" class="text-link">設置再生能源發電設備</a></h4>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img width="200px" src="./assets/img/powersale/energy_storage.png">
-                                    <h4 class="fw-bold mt-3"><a href="business.php#storage" class="text-black text-decoration-none">設置儲能設備</a></h4>
-                                </div>
+                                    <img width="200px" src="./assets/img/powersale/energy_storage_2.png">
+                                    <h4 class="fw-bold mt-3"><a href="business.php#storage" class="text-link">設置儲能設備</a></h4>                                </div>
                             </div>
                         </div>
                     </div>
@@ -470,7 +469,7 @@
                         <div class="card shadow">
                             <div class="card-body">
                                 <h5 class="card-title">用戶聯繫提出需求</h5>
-                                <p class="card-text"><a href="contact.php">聯繫寶晶</a>，我們將依用戶不同的用電狀況做初步評估。</p>
+                                <p class="card-text"><a href="contact.php#contactform">聯繫寶晶</a>，我們將依用戶不同的用電狀況做初步評估。</p>
                             </div>
                         </div>
                     </div>
@@ -521,7 +520,7 @@
                         <div class="card shadow">
                             <div class="card-body">
                                 <h5 class="card-title">開始使用綠電</h5>
-                                <p class="card-text">智慧電錶安裝完成後，台電會開始審核用電資訊，預計4~5個月後台電完成綠電轉供作業</p>
+                                <p class="card-text">智慧電錶安裝完成，台電開始審核用電資訊，預計 3~6 個月後台電完成綠電轉供作業。</p>
                             </div>
                         </div>
                     </div>
@@ -529,7 +528,7 @@
                         <div class="card-dialog-body">
                             <div class="card2">
                                 <div class="card-body">
-                                    <h5 class="card-title">立即<a href="contact.php">聯絡我們</a></h5>
+                                    <h5 class="card-title">立即<a href="contact.php#contactform">聯絡我們</a></h5>
                                 </div>
                             </div>
                         </div>
@@ -575,7 +574,7 @@
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                 <div class="card-body">
-                                    大約4~5個月的時間。綠電方案確認、購電合約(PPA)簽訂後即代表申請完成，台電將前往安裝智慧電錶，同時我們將針對您的綠電方案向台電提出轉供申請，確認申請通過後我們會向您通知並且開始向您提供綠電。
+                                大約3~6個月的時間。綠電方案確認、購電合約(PPA)簽訂後即代表申請完成，台電將前往安裝智慧電錶，同時我們將針對您的綠電方案向台電提出轉供申請，確認申請通過後我們會向您通知並且開始向您提供綠電。
                                 </div>
                                 </div>
                             </div>

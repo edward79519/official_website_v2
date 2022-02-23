@@ -502,4 +502,17 @@ header.masthead {
 #faq .card .card-header .btn-link {
   text-decoration: none;
 }
+
+.text-link {
+  color: black;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: #DE700B;
+}
+
+.fit-cnt {
+  min-height: 250px;
+}
 /*# sourceMappingURL=powersale.css.map */
