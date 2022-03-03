@@ -198,8 +198,8 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <a class="portfolio-box" href="assets/img/business/fullsize/proj-pingtung_funliao.jpg" title="Project Name">
-                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-pingtung_funliao_thumb.jpg" 
+                            <a class="portfolio-box" href="assets/img/business/fullsize/proj-pingtung_funliao_2.jpg" title="Project Name">
+                                <img class="img-fluid" src="assets/img/business/thumbnails/proj-pingtung_funliao_2_thumb.jpg" 
                                 alt="寶晶能源 屏東枋寮 地面型 300 MW" />
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">地面型</div>
