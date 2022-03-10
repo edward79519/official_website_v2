@@ -45,33 +45,58 @@ var mon_const = {
 
 $(document).ready(function () {
     $('#nextbtn').on('click', function(){
+        var form = $(this).closest('.needs-validation');
         var cost = $('#powercost').val();
         var usrtype = $('#usrtype').val();
         var calmon = $('#calmon').val();
         var type_const = mon_const[usrtype];
         var rate = cost / type_const[calmon];
         // $("input[id^='input']").val(cost * mon_const[calmon]);
-        
-        console.log(type_const);
-        $("input[id^='input']").each(function(index){
-            $(this).val(Math.round(type_const[index + 1] * rate ));
-        });
-        $("#scndcard").fadeIn("slow");
-        $('html,body').animate({scrollTop:$('#scndcard').offset().top -100},0);
+        form.addClass('was-validated');
+
+        if (form[0].checkValidity() === true) {
+            console.log( form.serialize() );
+            $("input[id^='input']").each(function(index){
+                $(this).val(Math.round(type_const[index + 1] * rate ));
+            });
+            $("#scndcard").fadeIn("slow");
+            $('html,body').animate({scrollTop:$('#scndcard').offset().top -100},0);
+        }
     });
     $('#caltotal').on('click', function(){
         var pwsum = 0;
         var grnrate = $("select[name='rate']").val();
-        $("input[id^='input']").each(function(){
-            var pwcost = parseInt($(this).val());
-            pwsum += pwcost;
-        });
-        carbon = pwsum * grnrate * 0.509 / 1000
-        tree = carbon/9.9
-        $("#carbon").text(carbon.toFixed(2));
-        $("#tree").text(tree.toFixed(2));
-        $("#thrdcard").fadeIn("slow");
-        $('html,body').animate({scrollTop:$('#thrdcard').offset().top -100},0);
+        var form_fst =  $("#fstform");
+        var form = $(this).closest('.needs-validation');
+        form.addClass('was-validated');
+
+        if (form[0].checkValidity() === true && form_fst[0].checkValidity() === true) {
+            console.log( $('#fstform, #scndform').serialize() );
+            $("input[id^='input']").each(function(){
+                var pwcost = parseInt($(this).val());
+                pwsum += pwcost;
+            });
+            carbon = pwsum * grnrate * 0.509 / 1000
+            tree = carbon/9.9
+            $("#carbon").text(carbon.toFixed(2));
+            $("#tree").text(tree.toFixed(2));
+            $("#thrdcard").fadeIn("slow");
+            $('html,body').animate({scrollTop:$('#thrdcard').offset().top -100},0);
+            $.ajax({
+                type: "POST",
+                url: "test_ajax.php",
+                data: $('#fstform, #scndform').serializeArray(),
+                
+                success: function(data) {
+                    $("#res_status").text(data.MSG);
+                    console.log(data.MSG);
+                },
+                error:  function(jqXHR) {
+                    $("#rex_status").text("Error! status:" + jqXHR.status);
+                    console.log("Error! status:" + jqXHR.status)
+                }
+            })
+        }
     });
     $('#calreset').on('click', function(){
         $("#scndcard, #thrdcard").fadeOut(0);
@@ -89,3 +114,7 @@ $(document).ready(function () {
         }
     });
 });
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})

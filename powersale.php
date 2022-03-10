@@ -1,3 +1,21 @@
+<?php
+function getIPAddress() {  
+    //whether ip is from the share internet  
+    if(!empty($_SERVER['HTTP_CLIENT_IP'])) {  
+        $ip = $_SERVER['HTTP_CLIENT_IP'];  
+    }  
+    //whether ip is from the proxy  
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {  
+        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];  
+    }  
+    //whether ip is from the remote address  
+    else{  
+        $ip = $_SERVER['REMOTE_ADDR'];  
+    }  
+    return $ip;  
+}  
+$ip = getIPAddress();  
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -71,165 +89,195 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-10">
                         <div class="calcard shadow" id="fstcard">
-                            <div class="row my-3">
-                                <div class="col-lg-4">
-                                    <div class="calcard-list">
-                                        <div class="calcard-list-num">1</div>
-                                        <div class="calcard-list-text">用電試算</div>
+                            <form class="needs-validation" id="fstform" novalidate>
+                                <div class="row my-3">
+                                    <div class="col-lg-4">
+                                        <div class="calcard-list">
+                                            <div class="calcard-list-num">1</div>
+                                            <div class="calcard-list-text">用電試算</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group row my-3">
+                                            <label for="" class="col-sm-4 col-form-label">用電類別</label>
+                                            <div class="col-sm-8">
+                                                <select class="form-select" name="calchar" id="usrtype" required>
+                                                    <option value="T" selected>個人</option>
+                                                    <option value="K">商辦</option>
+                                                    <option value="C">工廠</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row my-3">
+                                            <label for="" class="col-sm-4 col-form-label">用電縣市</label>
+                                            <div class="col-sm-8">
+                                                <select class="form-select" name="calloc" required>
+                                                    <option value="" selected>請選擇</option>
+                                                    <option value="A">臺北市</option>
+                                                    <option value="B">臺中市</option>
+                                                    <option value="C">基隆市</option>
+                                                    <option value="D">臺南市</option>
+                                                    <option value="E">高雄市</option>
+                                                    <option value="F">新北市</option>
+                                                    <option value="G">宜蘭縣</option>
+                                                    <option value="H">桃園市</option>
+                                                    <option value="I">嘉義市</option>
+                                                    <option value="J">新竹縣</option>
+                                                    <option value="K">苗栗縣</option>
+                                                    <option value="M">南投縣</option>
+                                                    <option value="N">彰化縣</option>
+                                                    <option value="O">新竹市</option>
+                                                    <option value="P">雲林縣</option>
+                                                    <option value="Q">嘉義縣</option>
+                                                    <option value="T">屏東縣</option>
+                                                    <option value="U">花蓮縣</option>
+                                                    <option value="V">臺東縣</option>
+                                                    <option value="W">金門縣</option>
+                                                    <option value="X">澎湖縣</option>
+                                                    <option value="Z">連江縣</option>
+                                                </select>
+                                                <div class="invalid-feedback">
+                                                    請選擇用電縣市。
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row my-3">
+                                            <label for="" class="col-sm-4 col-form-label">用電月份</label>
+                                            <div class="col-sm-8">
+                                                <select class="form-select" name="calmon" id="calmon" required>
+                                                    <option value="" selected>請選擇</option>
+                                                    <option value="1">一月</option>
+                                                    <option value="2">二月</option>
+                                                    <option value="3">三月</option>
+                                                    <option value="4">四月</option>
+                                                    <option value="5">五月</option>
+                                                    <option value="6">六月</option>
+                                                    <option value="7">七月</option>
+                                                    <option value="8">八月</option>
+                                                    <option value="9">九月</option>
+                                                    <option value="10">十月</option>
+                                                    <option value="11">十一月</option>
+                                                    <option value="12">十二月</option>
+                                                </select>
+                                                <div class="invalid-feedback">
+                                                    請選擇用電月份。
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row my-3">
+                                            <label for="" class="col-sm-4 col-form-label">用電度數 (單位：度)</label>
+                                            <div class="col-sm-8">
+                                                <input type="number" class="form-control" id="powercost" placeholder="" required>
+                                                <div class="invalid-feedback">
+                                                    請選輸入用電度數。
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row my-3">
+                                            <label for="" class="col-sm-4 col-form-label">希望購買綠電比例</label>
+                                            <div class="col-sm-8">
+                                                <select class="form-select" name="rate" id="buyrate" required>
+                                                    <option value="" selected>請選擇</option>
+                                                    <option value="0.1">10%</option>
+                                                    <option value="0.2">20%</option>
+                                                    <option value="0.3">30%</option>
+                                                </select>
+                                                <div class="invalid-feedback">
+                                                    請選購買綠電比例。
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <input type="button" class="btn btn-primary mt-3" value="下一步" id="nextbtn">
                                     </div>
                                 </div>
-                                <div class="col-lg-8">
-                                    <div class="form-group row my-3">
-                                        <label for="" class="col-sm-4 col-form-label">用電類別</label>
-                                        <div class="col-sm-8">
-                                            <select class="form-select" name="calchar" id="usrtype">
-                                                <option value="T" selected>個人</option>
-                                                <option value="K">商辦</option>
-                                                <option value="C">工廠</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row my-3">
-                                        <label for="" class="col-sm-4 col-form-label">用電縣市</label>
-                                        <div class="col-sm-8">
-                                            <select class="form-select" name="calloc">
-                                                <option value="" selected>請選擇</option>
-                                                <option value="A">臺北市</option>
-                                                <option value="B">臺中市</option>
-                                                <option value="C">基隆市</option>
-                                                <option value="D">臺南市</option>
-                                                <option value="E">高雄市</option>
-                                                <option value="F">新北市</option>
-                                                <option value="G">宜蘭縣</option>
-                                                <option value="H">桃園市</option>
-                                                <option value="I">嘉義市</option>
-                                                <option value="J">新竹縣</option>
-                                                <option value="K">苗栗縣</option>
-                                                <option value="M">南投縣</option>
-                                                <option value="N">彰化縣</option>
-                                                <option value="O">新竹市</option>
-                                                <option value="P">雲林縣</option>
-                                                <option value="Q">嘉義縣</option>
-                                                <option value="T">屏東縣</option>
-                                                <option value="U">花蓮縣</option>
-                                                <option value="V">臺東縣</option>
-                                                <option value="W">金門縣</option>
-                                                <option value="X">澎湖縣</option>
-                                                <option value="Z">連江縣</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row my-3">
-                                        <label for="" class="col-sm-4 col-form-label">用電月份</label>
-                                        <div class="col-sm-8">
-                                            <select class="form-select" name="calmon" id="calmon">
-                                                <option value="" selected>請選擇</option>
-                                                <option value="1">一月</option>
-                                                <option value="2">二月</option>
-                                                <option value="3">三月</option>
-                                                <option value="4">四月</option>
-                                                <option value="5">五月</option>
-                                                <option value="6">六月</option>
-                                                <option value="7">七月</option>
-                                                <option value="8">八月</option>
-                                                <option value="9">九月</option>
-                                                <option value="10">十月</option>
-                                                <option value="11">十一月</option>
-                                                <option value="12">十二月</option>
-
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row my-3">
-                                        <label for="" class="col-sm-4 col-form-label">用電度數 (單位：度)</label>
-                                        <div class="col-sm-8">
-                                            <input type="text" class="form-control" id="powercost" placeholder="">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row my-3">
-                                        <label for="" class="col-sm-4 col-form-label">希望購買綠電比例</label>
-                                        <div class="col-sm-8">
-                                            <select class="form-select" name="rate">
-                                                <option selected>請選擇</option>
-                                                <option value="0.1">10%</option>
-                                                <option value="0.2">20%</option>
-                                                <option value="0.3">30%</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 text-center">
-                                    <input type="button" class="btn btn-primary mt-3" value="下一步" id="nextbtn">
-                                </div>
-                            </div>
+                            </form>
                         </div>
                         <div class="calcard shadow" id="scndcard">
-                            <div class="row my-3">
-                                <div class="col-lg-4">
-                                    <div class=" calcard-list">
-                                        <div class="calcard-list-num">2</div>
-                                        <div class="calcard-list-text">用電推定</div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="row gy-4 gx-3 gx-md-1">
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input01">一月</label>
-                                            <input type="number" class="form-control" id="input1" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input02">二月</label>
-                                            <input type="number" class="form-control" id="input2" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input03">三月</label>
-                                            <input type="number" class="form-control" id="input3" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input04">四月</label>
-                                            <input type="number" class="form-control" id="input4" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input05">五月</label>
-                                            <input type="number" class="form-control" id="input5" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input06">六月</label>
-                                            <input type="number" class="form-control" id="input6" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input07">七月</label>
-                                            <input type="number" class="form-control" id="input7" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input08">八月</label>
-                                            <input type="number" class="form-control" id="input8" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input09">九月</label>
-                                            <input type="number" class="form-control" id="input9" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input10">十月</label>
-                                            <input type="number" class="form-control" id="input10" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input11">十一月</label>
-                                            <input type="number" class="form-control" id="input11" min="0" step="0.1">
-                                        </div>
-                                        <div class="form-group col-6 col-md-2 text-center">
-                                            <label for="input12">十二月</label>
-                                            <input type="number" class="form-control" id="input12" min="0" step="0.1">
-                                        </div>
-                                        <div class="col-12 text-end">
-                                            <p class="text-primary">*單位: 度 (kw‧h)</p><p class="text-secondary">**得自行修改填入真實數據，數據為推定值，僅供參考。</p>
+                            <form class="needs-validation" id="scndform" novalidate>
+                                <div class="row my-3">
+                                    <div class="col-lg-4">
+                                        <div class=" calcard-list">
+                                            <div class="calcard-list-num">2</div>
+                                            <div class="calcard-list-text">用電推定</div>
                                         </div>
                                     </div>
+                                    <div class="col-lg-8">
+                                        <div class="row gy-4 gx-3 gx-md-1">
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input01">一月</label>
+                                                <input type="number" class="form-control" id="input1" min="0" step="0.1" name="calmon01" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input02">二月</label>
+                                                <input type="number" class="form-control" id="input2" min="0" step="0.1" name="calmon02" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input03">三月</label>
+                                                <input type="number" class="form-control" id="input3" min="0" step="0.1" name="calmon03" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input04">四月</label>
+                                                <input type="number" class="form-control" id="input4" min="0" step="0.1" name="calmon04" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input05">五月</label>
+                                                <input type="number" class="form-control" id="input5" min="0" step="0.1" name="calmon05" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input06">六月</label>
+                                                <input type="number" class="form-control" id="input6" min="0" step="0.1" name="calmon06" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input07">七月</label>
+                                                <input type="number" class="form-control" id="input7" min="0" step="0.1" name="calmon07" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input08">八月</label>
+                                                <input type="number" class="form-control" id="input8" min="0" step="0.1" name="calmon08" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input09">九月</label>
+                                                <input type="number" class="form-control" id="input9" min="0" step="0.1" name="calmon09" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input10">十月</label>
+                                                <input type="number" class="form-control" id="input10" min="0" step="0.1" name="calmon10" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input11">十一月</label>
+                                                <input type="number" class="form-control" id="input11" min="0" step="0.1" name="calmon11" required>
+                                            </div>
+                                            <div class="form-group col-6 col-md-2 text-center">
+                                                <label for="input12">十二月</label>
+                                                <input type="number" class="form-control" id="input12" min="0" step="0.1" name="calmon12" required>
+                                            </div>
+                                            <div class="col-12 text-end">
+                                                <p class="text-primary">*單位: 度 (kw‧h)</p><p class="text-secondary">**得自行修改填入真實數據，數據為推定值，僅供參考。</p>
+                                            </div>
+                                            <div class="col-12 form-group align-self-end">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                                    <label class="form-check-label" for="invalidCheck" data-toggle="tooltip" data-placement="top" title="資料只包含網路位置，以及上述用電表單內容。">
+                                                        點選已表示同意我們蒐集資料。
+                                                    </label>
+                                                    <div class="invalid-feedback">
+                                                        必須先點選同意蒐集資料。
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <input type="hidden" name="ipaddr" value="<?php echo $ip?>">
+                                        <input type="button" class="btn btn-primary mt-3" value="開始試算" id="caltotal">
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <div id="res_status"></div>
+                                    </div>
                                 </div>
-                                <div class="col-12 text-center">
-                                    <input type="button" class="btn btn-primary mt-3" value="開始試算" id="caltotal">
-                                </div>
-                            </div>
+                            </form>
                         </div>
                         <div class="calcard shadow" id="thrdcard">
                             <div class="row my-3">
