@@ -12,7 +12,7 @@ $serverName = "192.168.11.104";
 $uid = $DBUSERNAME;
 $pwd = $DBPASSWORD;
 $sqlsrv_db = "powersale";
-$connectionInfo = array("UID" => $uid, "PWD" => $pwd, "Database" => $sqlsrv_db);
+$connectionInfo = array("UID" => $uid, "PWD" => $pwd, "Database" => $sqlsrv_db, "TrustServerCertificate" => true);
 
 // Check Request method is POST
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
