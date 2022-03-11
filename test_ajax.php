@@ -92,7 +92,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         else  
         {  
             echo json_encode(array(
-                "MSG" => "Connect Fail".sqlsrv_errors(),
+                "MSG" => "Connect Fail".print_r(sqlsrv_errors(), true),
             ));
         } 
     } else {
