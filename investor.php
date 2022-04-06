@@ -33,10 +33,25 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 text-center">
-                        <div class="banner-title">簡明月報</div>
+                        <div class="banner-title">簡明年月報</div>
                     </div>
                     <div class="col-8 col-lg-8 d-flex flex-column align-items-stretch banner-list">
                         <div class="d-flexs flex-fill">
+                            <a class="d-flexs flex-fill" href="assets/files/reports/monthly/城市發展電業-111年01月簡明月報.pdf">
+                                    <i class="bi bi-file-earmark-pdf mx-1"></i>111年01月簡明月報
+                                </a>
+                            </div>
+                            <div class="d-flexs flex-fill">
+                                <a class="d-flexs flex-fill" href="assets/files/reports/monthly/城市發展電業-110年年報.pdf">
+                                    <i class="bi bi-file-earmark-pdf mx-1"></i>110年年報
+                                </a>
+                            </div>
+                            <div class="d-flexs flex-fill">
+                                <a class="d-flexs flex-fill" href="assets/files/reports/monthly/城市發展電業-110年12月簡明月報.pdf">
+                                    <i class="bi bi-file-earmark-pdf mx-1"></i>110年12月簡明月報
+                                </a>
+                            </div>
+                            <div class="d-flexs flex-fill">
                             <a class="d-flexs flex-fill" href="assets/files/reports/monthly/城市發展電業-110年11月簡明月報.pdf">
                                 <i class="bi bi-file-earmark-pdf mx-1"></i>110年11月簡明月報
                             </a>
