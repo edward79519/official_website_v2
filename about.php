@@ -187,7 +187,7 @@
                             </div>
                             <span class="material-icons md-36 text-primary">arrow_right</span>
                             <div class="child-cont">
-                                屏東林邊地面型電站，容量 86MW ，最終擴展至 99MW。
+                                屏東 800MW 光電計畫中位於林邊的大型地面型案電廠，最終擴展至 99MW。
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                             </div>
                             <span class="material-icons md-36 text-primary">arrow_right</span>
                             <div class="child-cont">
-                                枋寮地面型電站，容量 120MW，長期發展至 400MW​。
+                                屏東 800MW 光電計畫中位於枋寮的大型地面型電廠，長期發展至 400MW。
                             </div>
                         </div>
                     </div>
@@ -211,7 +211,7 @@
                             </div>
                             <span class="material-icons md-36 text-primary">arrow_right</span>
                             <div class="child-cont">
-                                屋頂型太陽能電站，以持有為主，中長期規劃至 50MW 以上。
+                                屋頂型太陽能電廠，以持有為主，中長期規劃至 50MW 以上。
                             </div>
                         </div>
                     </div>
@@ -223,7 +223,7 @@
                             </div>
                             <span class="material-icons md-36 text-primary">arrow_right</span>
                             <div class="child-cont">
-                                集團內太陽能電站運維服務、EPC 工程服務​。
+                                集團內太陽能電廠運維服務、EPC 工程服務​。
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                             </div>
                             <span class="material-icons md-36 text-primary">arrow_right</span>
                             <div class="child-cont">
-                                台糖營農型示範案場太陽能電站，已得標容量近 2MW。
+                                台糖營農型示範案場太陽能電廠，已得標容量近 2MW。
                             </div>
                         </div>
                     </div>
@@ -259,7 +259,7 @@
                             </div>
                             <span class="material-icons md-36 text-primary">arrow_right</span>
                             <div class="child-cont">
-                                因應儲能業務發展所設置，台電已成立電力交易平台​。
+                                致力讓太陽能成為台灣可靠的電力來源，成立寶儲能源首先投入 AFC 調頻備轉輔助服務，今後將全力響應台電於電力交易平台上的交易項目。
                             </div>
                         </div>
                     </div>
@@ -271,7 +271,7 @@
                             </div>
                             <span class="material-icons md-36 text-primary">arrow_right</span>
                             <div class="child-cont">
-                                因應未來電業自由化成立之再生能源售電業​。
+                                因應電業自由化成立之再生能源售電業​，希望能成為企業長期、穩定、可信賴的再生能源服務提供商。
                             </div>
                         </div>
                     </div>
@@ -461,10 +461,10 @@
                             </div>
                             <div class="col-sm-6">
                                 <a class="portfolio-box" href="https://www.104.com.tw/job/6whol" target="_blank" title="Project Name">
-                                    <img class="img-fluid" src="assets/img/about/Hiring-2.jpg" alt="寶晶能源 屏東 太陽能電站專案經理" />
+                                    <img class="img-fluid" src="assets/img/about/Hiring-2.jpg" alt="寶晶能源 屏東 太陽能電廠專案經理" />
                                     <div class="portfolio-box-caption">
                                         <div class="project-category text-white-75">屏東辦公室</div>
-                                        <div class="project-name">太陽能電站專案經理</div>
+                                        <div class="project-name">太陽能電廠專案經理</div>
                                     </div>
                                 </a>
                             </div>
