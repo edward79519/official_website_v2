@@ -267,7 +267,7 @@
                         <div class="d-flex align-items-center">
                             <div class="child-title text-end">
                                 寶富<br/>
-                                能源 
+                                電力
                             </div>
                             <span class="material-icons md-36 text-primary">arrow_right</span>
                             <div class="child-cont">

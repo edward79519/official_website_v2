@@ -47,37 +47,37 @@
                     <div class="col-lg-4 col-md-6 info">
                         <div class="info-title">系統裝置容量</div>
                         <div class="info-text mt-4">
-                            <h3 class="h4 mb-2 text-primary">7<span class="info-unit">MW</span></h3>
+                            <h3 class="h4 mb-2 text-primary">27.5<span class="info-unit">MW</span></h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 info">
                         <div class="info-title">累積發電度數</div>
                         <div class="info-text mt-4">
-                            <h3 class="h4 mb-2 text-primary">1,029<span class="info-unit">萬度</span></h3>
+                            <h3 class="h4 mb-2 text-primary">1,511<span class="info-unit">萬度</span></h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 info">
                         <div class="info-title">相當於提供多少家庭一個月用電</div>
                         <div class="info-text mt-4">
-                            <h3 class="h4 mb-2 text-primary">4<span class="info-unit">萬戶</span></h3>
+                            <h3 class="h4 mb-2 text-primary">51,000<span class="info-unit">戶</span></h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 info">
                         <div class="info-title">減少碳排量達</div>
                         <div class="info-text mt-4">
-                            <h3 class="h4 mb-2 text-primary">5,237<span class="info-unit">公噸</span></h3>
+                            <h3 class="h4 mb-2 text-primary">9,248<span class="info-unit">公噸</span></h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 info">
-                        <div class="info-title">相當於多少森林吸碳效率</div>
+                        <div class="info-title">相當於多少森林一年吸碳效益</div>
                         <div class="info-text mt-4">
-                            <h3 class="h4 mb-2 text-primary">529<span class="info-unit">公頃</span></h3>
+                            <h3 class="h4 mb-2 text-primary">934<span class="info-unit">公頃</span></h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 info">
                         <div class="info-title">面積相當於多少大安森林公園</div>
                         <div class="info-text mt-4">
-                            <h3 class="h4 mb-2 text-primary">21<span class="info-unit">座</span></h3>
+                            <h3 class="h4 mb-2 text-primary">36<span class="info-unit">座</span></h3>
                         </div>
                     </div>
                 </div>
