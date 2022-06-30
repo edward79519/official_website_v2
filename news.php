@@ -75,28 +75,28 @@
                             <div class="news-board flex-fill">
                                 <div class="d-flex">
                                     <div class="w-50">
-                                        <div class="news-media mt-3"><a href="https://www.ltn.com.tw/">自由時報</a></div>
+                                        <div class="news-media mt-3"><a href="https://www.upmedia.mg/">上報</a></div>
                                         <div class="news-content mt-2">
-                                            <div class="news-title-right"><a href="https://sports.ltn.com.tw/news/breakingnews/3768223">路跑》超馬好手林義傑一手促成 基隆馬拉松即日起報名</a></div>
-                                            <div class="news-time">2021/12/14</div>
+                                            <div class="news-title-right"><a href="https://www.upmedia.mg/news_info.php?SerialNo=131588">十大綠能企業凝聚共識　籌組太陽光電產業永續發展協會</a></div>
+                                            <div class="news-time">2021/12/03</div>
                                         </div>
                                     </div>
                                     <div class="w-50">
-                                        <div class="news-img-right my-0"><img src="assets/img/news/ltnlogo.png"></div>
+                                        <div class="news-img-right my-0"><img src="assets/img/news/news_right.jpg"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="news-board flex-fill">
                                 <div class="d-flex">
                                     <div class="w-50">
-                                        <div class="news-media mt-3"><a href="https://news.sina.com.tw/">新浪新聞</a></div>
+                                        <div class="news-media mt-3"><a href="https://view.ftv.com.tw/">民視異言堂</a></div>
                                         <div class="news-content mt-2">
-                                            <div class="news-title-right"><a href="https://news.sina.com.tw/article/20211214/40806972.html">2022基隆馬拉松 帶動環保綠能風潮 </a></div>
-                                            <div class="news-time">2021/12/14</div>
+                                            <div class="news-title-right"><a href="https://view.ftv.com.tw/week.aspx?dd=20211127">在惡地種綠金</a></div>
+                                            <div class="news-time">2021/11/27</div>
                                         </div>
                                     </div>
                                     <div class="w-50">
-                                        <div class="news-img-right my-auto"><img src="assets/img/news/sina.jpg"></div>
+                                        <div class="news-img-right my-auto"><img src="assets/img/news/break-news.jpg"></div>
                                     </div>
                                 </div>
                             </div>
@@ -116,60 +116,7 @@
                                 <div class="news-time">2021/12/20</div>
                             </div>
                         </div>
-                        <div class="news-board flex-fill d-flex">
-                            <div class="news-media-list mt-3"><a href="https://www.ltn.com.tw/">自由時報</a></div>
-                            <div class="news-content mt-2">
-                                <div class="news-title-right"><a href="https://sports.ltn.com.tw/news/breakingnews/3768223">
-                                    路跑》超馬好手林義傑一手促成 基隆馬拉松即日起報名
-                                </a></div>
-                                <div class="news-time">2021/12/14</div>
-                            </div>
-                        </div>
-                        <div class="news-board flex-fill d-flex">
-                            <div class="news-media-list mt-3"><a href="https://news.sina.com.tw/">新浪新聞</a></div>
-                            <div class="news-content mt-2">
-                                <div class="news-title-right"><a href="https://news.sina.com.tw/article/20211214/40806972.html">
-                                    2022基隆馬拉松 帶動環保綠能風潮 
-                                </a></div>
-                                <div class="news-time">2021/12/14</div>
-                            </div>
-                        </div>
-                        <div class="news-board flex-fill d-flex">
-                            <div class="news-media-list mt-3"><a href="https://www.epochtimes.com/">大紀元</a></div>
-                            <div class="news-content mt-2">
-                                <div class="news-title-right"><a href="https://www.epochtimes.com/b5/21/12/14/n13436700.htm">
-                                    享受「海味之旅」基隆馬拉松即日起報名
-                                </a></div>
-                                <div class="news-time">2021/12/14</div>
-                            </div>
-                        </div>
-                        <div class="news-board flex-fill d-flex">
-                            <div class="news-media-list mt-3"><a href="https://www.cna.com.tw/">中央通訊社</a></div>
-                            <div class="news-content mt-2">
-                                <div class="news-title-right"><a href="https://www.cna.com.tw/news/aspt/202112140234.aspx">
-                                    基隆綠能馬拉松海景加美食 111年4/9開跑
-                                </a></div>
-                                <div class="news-time">2021/12/14</div>
-                            </div>
-                        </div>
-                        <div class="news-board flex-fill d-flex">
-                            <div class="news-media-list mt-3"><a href="https://www.ettoday.net/">ETtoday新聞雲</a></div>
-                            <div class="news-content mt-2">
-                                <div class="news-title-right"><a href="https://www.ettoday.net/news/20211214/2146030.htm">
-                                    超馬好手林義傑一手催生　基隆綠能馬拉松即日起報名
-                                </a></div>
-                                <div class="news-time">2021/12/14</div>
-                            </div>
-                        </div>
-                        <div class="news-board flex-fill d-flex">
-                            <div class="news-media-list mt-3"><a href="https://udn.com/news/index">聯合新聞網</a></div>
-                            <div class="news-content mt-2">
-                                <div class="news-title-right"><a href="https://udn.com/news/story/7270/5961098?from=udn-ch1_breaknews-1-0-news">
-                                    報名吧！超馬好手林義傑催生基隆馬拉松 無敵海景加美食
-                                </a></div>
-                                <div class="news-time">2021/12/14</div>
-                            </div>
-                        </div>
+
                         <div class="news-board flex-fill d-flex">
                             <div class="news-media-list mt-3"><a href="https://www.upmedia.mg/">上報</a></div>
                             <div class="news-content mt-2">

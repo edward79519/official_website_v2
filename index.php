@@ -168,32 +168,31 @@
                             <div class="news-board flex-fill">
                                 <div class="d-flex">
                                     <div class="w-50">
-                                        <div class="news-media mt-3"><a href="https://www.ltn.com.tw/">自由時報</a></div>
+                                        <div class="news-media mt-3"><a href="https://www.upmedia.mg/">上報</a></div>
                                         <div class="news-content mt-2">
-                                            <div class="news-title-right"><a href="https://sports.ltn.com.tw/news/breakingnews/3768223">路跑》超馬好手林義傑一手促成 基隆馬拉松即日起報名</a></div>
-                                            <div class="news-time">2021/12/14</div>
+                                            <div class="news-title-right"><a href="https://www.upmedia.mg/news_info.php?SerialNo=131588">十大綠能企業凝聚共識　籌組太陽光電產業永續發展協會</a></div>
+                                            <div class="news-time">2021/12/03</div>
                                         </div>
                                     </div>
                                     <div class="w-50">
-                                        <div class="news-img-right my-0"><img src="assets/img/news/20211214_ltn.jpg" alt="2021/12/14 自由時報 路跑》超馬好手林義傑一手促成 基隆馬拉松即日起報名"></div>
+                                        <div class="news-img-right my-0"><img src="assets/img/news/news_right.jpg"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="news-board flex-fill">
                                 <div class="d-flex">
                                     <div class="w-50">
-                                        <div class="news-media mt-3"><a href="https://news.sina.com.tw/">新浪新聞</a></div>
+                                        <div class="news-media mt-3"><a href="https://view.ftv.com.tw/">民視異言堂</a></div>
                                         <div class="news-content mt-2">
-                                            <div class="news-title-right"><a href="https://news.sina.com.tw/article/20211214/40806972.html">2022基隆馬拉松 帶動環保綠能風潮</a></div>
-                                            <div class="news-time">2021/12/14</div>
+                                            <div class="news-title-right"><a href="https://view.ftv.com.tw/week.aspx?dd=20211127">在惡地種綠金</a></div>
+                                            <div class="news-time">2021/11/27</div>
                                         </div>
                                     </div>
                                     <div class="w-50">
-                                        <div class="news-img-right my-auto"><img src="assets/img/news/sina_logo.jpg" alt="2021/12/14 新浪新聞 2022基隆馬拉松 帶動環保綠能風潮"></div>
+                                        <div class="news-img-right my-auto"><img src="assets/img/news/break-news.jpg"></div>
                                     </div>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
