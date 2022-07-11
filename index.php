@@ -126,9 +126,23 @@
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">最新消息</h2>
                 <hr class="divider mb-5" />
-                <div class="row min-vh-100 py-5">
+                <div class="row min-vh-90 py-5">
                     <div class="col-12 d-flex flex-column flex-lg-row align-items-stretch align-content-stretch">
                         <div class="news-l-col d-flex flex-column">
+                            <div class="news-board flex-fill">
+                                <div class="d-flex">
+                                    <div class="w-60">
+                                        <div class="news-media mt-3"><a href="https://linktr.ee/BWnet">商周Bar</a></div>
+                                        <div class="news-content mt-2">
+                                            <div class="news-title-right"><a href="https://open.spotify.com/episode/7g8DSVg8LmwIbGNHIYAukL">【與永續者同行】漲電價幫綠電？太陽能成金融業最愛ESG入門款？大家為何瘋光電？</a></div>
+                                            <div class="news-time">2022/06/30</div>
+                                        </div>
+                                    </div>
+                                    <div class="w-40">
+                                        <div class="news-img-right my-auto"><img src="assets/img/news/20220630_podcast.jpg" alt="【與永續者同行】漲電價幫綠電？太陽能成金融業最愛ESG入門款？大家為何瘋光電？"></div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="news-board flex-fill">
                                 <div class="news-media my-3"><a href="https://money.udn.com/money/">經濟日報</a></div>
                                 <div class="news-img"><img src="assets/img/news/20220112_mnyudn.jpg" alt="2022/01/12 TPiSA成立 太陽光電邁向永續展新頁"></div>
@@ -140,12 +154,7 @@
                                     1月11日上午11點正式成立，綠能總舵手行政院副院長沈榮津親臨，能源局
                                     局長游振偉、標檢局副局長謝翰璋、台電處長陳銘樹，以及太陽能發電系統
                                     公會理事長蔡宗融、太陽光電產業協會理事長徐秀蘭均齊聚台灣金融研訓院，
-                                    表達祝賀。</p>
-                                    <p>世界各國先後提出「淨零排放」目標，全球即將進入「零碳經濟」新階段，政
-                                    府也積極擴大布局綠能產業。沈榮津表示，使用綠電已成為產業能否繼續存在
-                                    國際供應鏈至關重要的問題，而非成本被貴幾成的問題。故積極推進以未來2年
-                                    太陽光電2.5GW為目標，接著增為2.7GW、3GW。希望顧及台積電等大廠，以及
-                                    每間企業的再生能源需求。... <span class="small"><a href="https://money.udn.com/money/story/11799/6028409">read more</a></span></p>
+                                    表達祝賀。<span class="small"><a href="https://money.udn.com/money/story/11799/6028409">read more</a></span></p>
                                     </div>
                                 </div>
                             </div>
@@ -153,42 +162,42 @@
                         <div class="news-l-col d-flex flex-column">
                             <div class="news-board flex-fill">
                                 <div class="d-flex">
-                                    <div class="w-50">
+                                    <div class="w-60">
                                         <div class="news-media mt-3"><a href="https://www.chinatimes.com/">中時新聞網</a></div>
                                         <div class="news-content mt-2">
-                                            <div class="news-title-right"><a href="https://www.chinatimes.com/realtimenews/20211220001297-260410?chdtv">《產業》寶佳&東元集團切入儲能，攜 Fluence...</a></div>
+                                            <div class="news-title-right"><a href="https://www.chinatimes.com/realtimenews/20211220001297-260410?chdtv">《產業》寶佳＆東元集團切入儲能 攜Fluence解鎖新里程碑</a></div>
                                             <div class="news-time">2021/12/20</div>
                                         </div>
                                     </div>
-                                    <div class="w-50">
-                                        <div class="news-img-right my-auto"><img src="assets/img/news/right-3.png" alt="2021/12/20 中時新聞網 《產業》寶佳&東元集團切入儲能"></div>
+                                    <div class="w-40">
+                                        <div class="news-img-right my-auto"><img src="assets/img/news/right-3.png" alt="2021/12/20 中時新聞網 《產業》寶佳＆東元集團切入儲能 攜Fluence解鎖新里程碑"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="news-board flex-fill">
                                 <div class="d-flex">
-                                    <div class="w-50">
+                                    <div class="w-60">
                                         <div class="news-media mt-3"><a href="https://www.upmedia.mg/">上報</a></div>
                                         <div class="news-content mt-2">
                                             <div class="news-title-right"><a href="https://www.upmedia.mg/news_info.php?SerialNo=131588">十大綠能企業凝聚共識　籌組太陽光電產業永續發展協會</a></div>
                                             <div class="news-time">2021/12/03</div>
                                         </div>
                                     </div>
-                                    <div class="w-50">
+                                    <div class="w-40">
                                         <div class="news-img-right my-0"><img src="assets/img/news/news_right.jpg"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="news-board flex-fill">
                                 <div class="d-flex">
-                                    <div class="w-50">
+                                    <div class="w-60">
                                         <div class="news-media mt-3"><a href="https://view.ftv.com.tw/">民視異言堂</a></div>
                                         <div class="news-content mt-2">
                                             <div class="news-title-right"><a href="https://view.ftv.com.tw/week.aspx?dd=20211127">在惡地種綠金</a></div>
                                             <div class="news-time">2021/11/27</div>
                                         </div>
                                     </div>
-                                    <div class="w-50">
+                                    <div class="w-40">
                                         <div class="news-img-right my-auto"><img src="assets/img/news/break-news.jpg"></div>
                                     </div>
                                 </div>
