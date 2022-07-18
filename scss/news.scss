@@ -77,18 +77,38 @@ header.masthead {
     }
     .news-title {
         a {
-            font-size: xx-large;
+            font-size: 20px;
             font-weight: bold;
             color: black;
             text-decoration: none;
         }
+        @media (min-width: 1200px) {
+            a {
+                font-size: 22px;
+            }
+        }
+        @media (min-width: 1400px) {
+            a {
+                font-size: x-large;
+            }
+        }
     }
     .news-title-right {
         a {
-            font-size: x-large;
+            font-size: 20px;
             font-weight: bold;
             color: black;
             text-decoration: none;
+        }
+        @media (min-width: 1200px) {
+            a {
+                font-size: 20px;
+            }
+        }
+        @media (min-width: 1400px) {
+            a {
+                font-size: x-large;
+            }
         }
     }
     .news-time {
@@ -105,4 +125,28 @@ header.masthead {
             width: 50%;
         }
     }
+}
+
+@media (min-width: 1200px) {
+    .news-board-height {
+        min-height: 190px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .news-board-height {
+        min-height: 226px;
+    }
+}
+
+.w-60 {
+    width: 60% !important;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+.min-vh-90 {
+    min-height: 90vh !important;
 }
