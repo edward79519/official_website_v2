@@ -131,7 +131,7 @@
                         <div class="news-l-col d-flex flex-column">
                             <div class="news-board flex-fill">
                                 <div class="d-flex">
-                                    <div class="w-60">
+                                    <div class="w-60 news-board-height">
                                         <div class="news-media mt-3"><a href="https://linktr.ee/BWnet">商周Bar</a></div>
                                         <div class="news-content mt-2">
                                             <div class="news-title-right"><a href="https://open.spotify.com/episode/7g8DSVg8LmwIbGNHIYAukL">【與永續者同行】漲電價幫綠電？太陽能成金融業最愛ESG入門款？大家為何瘋光電？</a></div>
@@ -160,9 +160,9 @@
                             </div>
                         </div>
                         <div class="news-l-col d-flex flex-column">
-                            <div class="news-board flex-fill">
+                            <div class="news-board">
                                 <div class="d-flex">
-                                    <div class="w-50">
+                                    <div class="w-50 news-board-height">
                                         <div class="news-media mt-3"><a href="https://www.chinatimes.com/">中時新聞網</a></div>
                                         <div class="news-content mt-2">
                                             <div class="news-title-right"><a href="https://www.chinatimes.com/realtimenews/20211220001297-260410?chdtv">《產業》寶佳＆東元集團切入儲能 攜Fluence解鎖新里程碑</a></div>

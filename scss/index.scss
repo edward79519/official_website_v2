@@ -261,3 +261,16 @@ header .content {
 .min-vh-90 {
     min-height: 90vh !important;
 }
+
+
+@media (min-width: 1200px) {
+    .news-board-height {
+        min-height: 190px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .news-board-height {
+        min-height: 226px;
+    }
+}
